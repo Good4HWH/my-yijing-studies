@@ -1,7 +1,7 @@
 {
-  "name": "我的易经｜学习与数字卦",
+  "name": "我的易经｜学习与数字卦 v1.0",
   "short_name": "我的易经",
-  "description": "个人易经学习与数字卦工具",
+  "description": "个人易经学习、64卦知识库、数字卦起卦、记录复盘与学习笔记工具",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#f7f1e6",
