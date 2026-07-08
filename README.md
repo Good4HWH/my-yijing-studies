@@ -1,2 +1,22 @@
-# my-yijing-studies
-My Yijing Studies
+# 我的易经｜学习与数字卦
+
+私人 iPhone PWA 原型。
+
+## v0.1 功能
+- 中文界面
+- 64卦列表与搜索
+- 乾、坤两卦原典示范资料
+- 三组数字起卦
+- 本卦、动爻、变卦计算
+- 卜卦记录保存
+- 每卦个人学习笔记
+- 导出/导入备份
+
+## 资料库原则
+资料库质量优先。v0.1 不乱填未校对内容：除乾、坤两卦外，其余卦先保留结构与校对状态。后续版本逐卦补齐原典、白话解释与注解摘要。
+
+## GitHub Pages
+上传全部文件到 GitHub repo 根目录，Settings → Pages → Deploy from branch → main/root。
+
+## 隐私
+数据存于浏览器 localStorage；没有后端服务器。请定期导出备份。
