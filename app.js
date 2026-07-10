@@ -130,6 +130,50 @@ function commentaryBlock(h) {
   <p class="quality-note">${esc(c.qualityTag || "")}</p></div>`;
 }
 
+function classicalStudyBlock(h) {
+  const s = h.classicalStudy || {};
+  if (s.completion !== "complete_v1_2A") {
+    return `<div class="pending-box">
+      <strong>v1.2 核引状态：</strong>${esc(s.sourceStatus || "待后续批次完成。")}
+    </div>`;
+  }
+
+  const rows = [
+    ["原典重点", s.originalFocus],
+    ["王弼义理摘要", s.wangBiSummary],
+    ["程颐义理摘要", s.chengYiSummary],
+    ["朱熹本义摘要", s.zhuXiSummary],
+    ["象数结构", s.xiangShuFocus],
+    ["现实合参", s.practicalSynthesis],
+    ["关键爻位提醒", s.keyLineReminder]
+  ];
+
+  return `<div class="classical-study">
+    ${rows.map(([k, v]) => `
+      <details class="commentary-item" ${k === "原典重点" ? "open" : ""}>
+        <summary>${k}</summary>
+        <p>${esc(v || "")}</p>
+      </details>
+    `).join("")}
+    <div class="study-questions">
+      <strong>学习复盘问题</strong>
+      <ol>${(s.studyQuestions || []).map((q) => `<li>${esc(q)}</li>`).join("")}</ol>
+    </div>
+    <p class="quality-note">${esc(s.sourceStatus || "")}</p>
+  </div>`;
+}
+
+function sourceTraceBlock(h) {
+  const t = h.sourceTrace || {};
+  return `<div class="source-trace">
+    <p><strong>核引状态：</strong>${esc(t.status || "")}</p>
+    ${t.coreTextSource ? `<p><a class="source-link" href="${esc(t.coreTextSource)}" target="_blank" rel="noopener">本卦原典来源 ↗</a></p>` : ""}
+    ${t.ctextBookOfChanges ? `<p><a class="source-link" href="${esc(t.ctextBookOfChanges)}" target="_blank" rel="noopener">Chinese Text Project《周易》资源 ↗</a></p>` : ""}
+    ${t.zhuXiWikisourceVol1 ? `<p><a class="source-link" href="${esc(t.zhuXiWikisourceVol1)}" target="_blank" rel="noopener">朱熹《原本周易本义》卷一 ↗</a></p>` : ""}
+    <p class="muted">${esc(t.note || "")}</p>
+  </div>`;
+}
+
 function getRecords() {
   try {
     return JSON.parse(localStorage.getItem("yijing_records") || "[]");
@@ -180,6 +224,8 @@ function searchableText(h) {
     h.study?.riskWarning,
     ...(Object.values(h.study?.applications || {})),
     ...(Object.values(h.commentary || {})),
+    JSON.stringify(h.classicalStudy || {}),
+    JSON.stringify(h.sourceTrace || {}),
     ...(h.yao || []),
     ...(h.yaoPlain || [])
   ].join(" ");
@@ -313,7 +359,17 @@ function openHex(n, keepView = false) {
     </div>
 
     <div class="card">
-      <h3>经典注解合参</h3>
+      <h3>v1.2 经典核引学习层</h3>
+      <p class="muted">第1—16卦已完成高质量核引摘要；其余卦会在后续批次继续完成。此层强调来源状态、原典重点、经典义理与现实复盘。</p>
+      ${classicalStudyBlock(h)}
+      <div class="section">
+        <h3>来源追踪</h3>
+        ${sourceTraceBlock(h)}
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>v1.1B 经典注解合参</h3>
       <p class="muted">这是学习型摘要，不是逐字引文。用于帮助你从义理、修身、本义、象数与现实应用五个角度理解本卦。</p>
       ${commentaryBlock(h)}
     </div>
@@ -416,6 +472,10 @@ ${interpret(r, h, ch)}
 行动建议：${h.study?.actionAdvice || ""}
 后续方向：${ch.study?.oneLineMeaning || ""}
 
+v1.2核引：
+${h.classicalStudy?.originalFocus || h.classicalStudy?.sourceStatus || ""}
+${h.classicalStudy?.practicalSynthesis || ""}
+
 经典合参：
 ${h.commentary?.overview || ""}
 ${h.commentary?.applicationBridge || ""}
@@ -501,6 +561,18 @@ function renderResult(r) {
       </div>
 
       <div class="section">
+        <h3>v1.2 核引提示</h3>
+        ${h.classicalStudy?.completion === "complete_v1_2A" ? `
+          <div class="application-list">
+            <div class="app-row"><strong>原典重点</strong><p>${esc(h.classicalStudy.originalFocus || "")}</p></div>
+            <div class="app-row"><strong>关键爻位</strong><p>${esc(h.classicalStudy.keyLineReminder || "")}</p></div>
+            <div class="app-row"><strong>现实合参</strong><p>${esc(h.classicalStudy.practicalSynthesis || "")}</p></div>
+            <div class="app-row"><strong>复盘问题</strong><p>${esc((h.classicalStudy.studyQuestions || []).join(" / "))}</p></div>
+          </div>
+        ` : `<div class="pending-box">${esc(h.classicalStudy?.sourceStatus || "本卦将在 v1.2 后续批次完成核引。")}</div>`}
+      </div>
+
+      <div class="section">
         <h3>经典合参提示</h3>
         <div class="application-list">
           <div class="app-row"><strong>义理主旨</strong><p>${esc(h.commentary?.overview || "")}</p></div>
@@ -566,7 +638,7 @@ function calculateDivination() {
     upper, lower, line,
     hex: h.number,
     changed: ch.number,
-    appVersion: "1.1B"
+    appVersion: "1.2A"
   };
 
   renderResult(lastResult);
@@ -657,7 +729,7 @@ function delRecord(id) {
 function exportBackup() {
   const payload = {
     app: "我的易经｜学习与数字卦",
-    version: "1.1B",
+    version: "1.2A",
     exportedAt: new Date().toISOString(),
     records: getRecords(),
     favorites: getFavorites(),

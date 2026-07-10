@@ -179,6 +179,31 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为乾上乾下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“主动规划、承担关键责任、坚持长期主义。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "v1.2A complete for this hexagram",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/乾",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "本条为可追溯学习摘要：原典逐卦可由 coreTextSource 核查；经典注解层为基于公开古籍资源的原创归纳，非逐字长引。"
+      },
+      "classicalStudy": {
+        "completion": "complete_v1_2A",
+        "originalFocus": "《乾》以“元亨利贞”为纲，彖传强调乾元创生，象传以“天行健”提示君子自强不息。六爻展示刚健之德从潜藏、见用、惕厉、进退、飞跃到亢极的时位变化。",
+        "wangBiSummary": "义理取向上，乾不只是强，而是纯阳刚健在不同时位中的得失。读乾要看“刚健是否合时、是否中正”，尤其避免把主动性误用成亢进。",
+        "chengYiSummary": "修身取向上，乾是君子进德修业之卦。初九重在潜养，九三重在终日乾乾、夕惕若，九五重在德位相称；上九则提醒高位过亢必生悔。",
+        "zhuXiSummary": "本义取向上，占得乾卦宜看所占之事是否可大有作为，同时必须以贞正为前提。若动爻不同，重点从潜藏、显露、谨慎、跃试、居尊、亢极之间转换。",
+        "xiangShuFocus": "乾上乾下，六爻皆阳，象纯刚健。互卦仍近乾体，错卦为坤，综卦仍为乾；学习时可用坤来校正乾的过刚，用“柔顺承载”平衡“主动创造”。",
+        "practicalSynthesis": "现实中适合用于创业、领导、重大启动、个人修炼。宜主动承担、建立愿景、长期坚持；但越接近高位，越要防过度自信、独断和不知退。",
+        "keyLineReminder": "重点警戒上九“亢龙有悔”：成功、高位、声望达到顶点时，最大的风险是过度扩张与不能下降。",
+        "studyQuestions": [
+          "我现在是潜龙、见龙、惕龙、跃龙、飞龙，还是亢龙？",
+          "我的主动性是否合时、合位、合正？",
+          "我需要补入哪一种坤德来平衡过刚？"
+        ],
+        "sourceStatus": "原典已逐卦可追溯；王弼/程颐/朱熹层为 v1.2A 摘要级核引，后续可继续升级为逐句原文摘引。"
       }
     },
     {
@@ -268,6 +293,31 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为坤上坤下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“稳定承接、打好基础、以柔顺成大事。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "v1.2A complete for this hexagram",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/坤",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "本条为可追溯学习摘要：原典逐卦可由 coreTextSource 核查；经典注解层为基于公开古籍资源的原创归纳，非逐字长引。"
+      },
+      "classicalStudy": {
+        "completion": "complete_v1_2A",
+        "originalFocus": "《坤》以“元亨，利牝马之贞”为纲，彖传强调至柔而动刚、厚德载物，象传以“地势坤”提示君子以厚德载物。",
+        "wangBiSummary": "义理取向上，坤之柔不是软弱，而是顺承天道、成就万物。坤德的关键在于“从正”，不是盲从。",
+        "chengYiSummary": "修身取向上，坤提醒人以谦顺、包容、承载来成事。履霜坚冰至提示微始可察，六二直方大提示内正外方。",
+        "zhuXiSummary": "本义取向上，占得坤卦，宜以柔顺守正、承接责任为主；若问行动，应先看是否有可从之正道与可承之位置。",
+        "xiangShuFocus": "坤上坤下，六爻皆阴，象纯柔顺。错卦为乾，综卦仍为坤；乾坤相互成就，坤提醒乾必须落地、承载、长期积累。",
+        "practicalSynthesis": "现实中适合用于团队支持、资源整合、家庭经营、长期积累。宜打基础、承接任务、培养耐性；忌只被动承受而不辨正邪。",
+        "keyLineReminder": "重点警戒初六“履霜，坚冰至”：小问题出现时已含未来大势，不可轻忽。",
+        "studyQuestions": [
+          "我现在是在承载正道，还是只是被动忍受？",
+          "哪些微小迹象已经预示未来风险？",
+          "我需要如何把柔顺转化为稳定的执行力？"
+        ],
+        "sourceStatus": "原典已逐卦可追溯；王弼/程颐/朱熹层为 v1.2A 摘要级核引，后续可继续升级为逐句原文摘引。"
       }
     },
     {
@@ -357,6 +407,31 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为坎上震下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“先定规则、找核心支持、把基础搭稳。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "v1.2A complete for this hexagram",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/屯",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "本条为可追溯学习摘要：原典逐卦可由 coreTextSource 核查；经典注解层为基于公开古籍资源的原创归纳，非逐字长引。"
+      },
+      "classicalStudy": {
+        "completion": "complete_v1_2A",
+        "originalFocus": "《屯》讲创始之难。卦辞“元亨利贞，勿用有攸往，利建侯”提示新局初开，先立根基与组织，不宜急行远进。",
+        "wangBiSummary": "义理取向上，屯是万物始生而未通，难在初始结构未定。关键不是强冲，而是先解决秩序、方向与主事者。",
+        "chengYiSummary": "修身处事上，屯提醒人在开端困顿时要守正、定志、择助。初九磐桓而利居贞，说明起步迟缓不一定坏，重要是立正位。",
+        "zhuXiSummary": "本义取向上，占得屯，事可成但未易成。宜先建组织、定规则、求援助，不宜仓促远行。",
+        "xiangShuFocus": "坎上震下，内动而外险，象新生欲动却遇险。互卦可看内在纠结，错卦可看通达之反面，综卦为蒙，表示初创困难常伴随认知未明。",
+        "practicalSynthesis": "现实中适合创业早期、新项目、团队初建。宜定规则、选核心成员、搭基础流程；忌急扩张、乱承诺、未建秩序就冲刺。",
+        "keyLineReminder": "初九“磐桓，利居贞，利建侯”最关键：慢不是失败，先立主心骨与组织核心。",
+        "studyQuestions": [
+          "我当前最大的困难是资源不足、秩序未定，还是方向不明？",
+          "谁是这个阶段应当建立的“侯”？",
+          "哪些远行式动作现在还不该做？"
+        ],
+        "sourceStatus": "原典已逐卦可追溯；王弼/程颐/朱熹层为 v1.2A 摘要级核引，后续可继续升级为逐句原文摘引。"
       }
     },
     {
@@ -446,6 +521,31 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为艮上坎下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“虚心求教、建立学习路径、先明基本原则。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "v1.2A complete for this hexagram",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/蒙",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "本条为可追溯学习摘要：原典逐卦可由 coreTextSource 核查；经典注解层为基于公开古籍资源的原创归纳，非逐字长引。"
+      },
+      "classicalStudy": {
+        "completion": "complete_v1_2A",
+        "originalFocus": "《蒙》讲启蒙与求教。卦辞强调“匪我求童蒙，童蒙求我”，学习必须出于诚意，且不可反复轻慢。",
+        "wangBiSummary": "义理取向上，蒙不是无可救药，而是未明待启。启蒙的关键是正其初、立其诚。",
+        "chengYiSummary": "修身取向上，蒙强调教育、规矩与诚敬。初六发蒙要用刑人之象，表示启蒙初期须有边界；上九击蒙则要防过度粗暴。",
+        "zhuXiSummary": "本义取向上，占得蒙，多主事情尚未明，需要求教、学习、辨正。若所问者心不诚或屡问轻慢，则难有所得。",
+        "xiangShuFocus": "艮上坎下，山下有险水，象泉水初出而未通。综卦为屯，说明初创之难与认知蒙昧常相互伴随。",
+        "practicalSynthesis": "现实中适合学习新领域、培训新人、教育子女、认知升级。宜找对老师、建立学习路径；忌不懂装懂、反复试探、无规则学习。",
+        "keyLineReminder": "六五“童蒙，吉”重要：真正的吉来自能保持童蒙之诚、虚心受教。",
+        "studyQuestions": [
+          "我现在不明白的关键问题是什么？",
+          "我是否真的愿意受教，还是只想验证自己的想法？",
+          "这个阶段需要温和启发，还是需要明确规则？"
+        ],
+        "sourceStatus": "原典已逐卦可追溯；王弼/程颐/朱熹层为 v1.2A 摘要级核引，后续可继续升级为逐句原文摘引。"
       }
     },
     {
@@ -535,6 +635,31 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为坎上乾下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“补充资源、耐心等待、保持沟通与准备。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "v1.2A complete for this hexagram",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/需",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "本条为可追溯学习摘要：原典逐卦可由 coreTextSource 核查；经典注解层为基于公开古籍资源的原创归纳，非逐字长引。"
+      },
+      "classicalStudy": {
+        "completion": "complete_v1_2A",
+        "originalFocus": "《需》讲等待与蓄养。卦辞“有孚，光亨，贞吉，利涉大川”说明等待不是消极，而是在诚信中养势待时。",
+        "wangBiSummary": "义理取向上，需是险在前而不轻进。能等待，是因为内有刚健、外知险阻。",
+        "chengYiSummary": "处事取向上，需提醒人饮食宴乐而不失正，是在等待中保养身心与资源。等不是拖延，而是准备。",
+        "zhuXiSummary": "本义取向上，占得需，事有阻隔但可待。宜守正、积蓄、等待时机，若时机成熟则可涉大川。",
+        "xiangShuFocus": "坎上乾下，天欲上进而遇水险。乾之刚健在内，坎险在外，故应先需待。",
+        "practicalSynthesis": "现实中适合资金筹备、谈判等待、项目审批、市场观察。宜准备材料、维护信用、等待窗口；忌焦躁冒进或空等无备。",
+        "keyLineReminder": "九五“需于酒食，贞吉”关键：处于等待中心位时，要能安定资源、保持正道。",
+        "studyQuestions": [
+          "我是在有准备地等待，还是用等待掩盖拖延？",
+          "前方的坎险是什么？",
+          "何时才是真正可以涉大川的窗口？"
+        ],
+        "sourceStatus": "原典已逐卦可追溯；王弼/程颐/朱熹层为 v1.2A 摘要级核引，后续可继续升级为逐句原文摘引。"
       }
     },
     {
@@ -624,6 +749,31 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为乾上坎下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“保存证据、寻求公正第三方、适时和解。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "v1.2A complete for this hexagram",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/讼",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "本条为可追溯学习摘要：原典逐卦可由 coreTextSource 核查；经典注解层为基于公开古籍资源的原创归纳，非逐字长引。"
+      },
+      "classicalStudy": {
+        "completion": "complete_v1_2A",
+        "originalFocus": "《讼》讲争讼。卦辞“有孚，窒惕，中吉，终凶”显示即使有理，也要警惕争到底会伤害整体。",
+        "wangBiSummary": "义理取向上，讼来自内险外健：内有险心，外又刚强，容易形成对抗。关键是止讼而非胜讼。",
+        "chengYiSummary": "处事取向上，讼提醒人先反求诸己，明辨事实边界。利见大人，是因争端需要公正权威来裁断。",
+        "zhuXiSummary": "本义取向上，占得讼，不宜涉大川，不宜冒险扩大争端。即便有孚，也宜取中止，不可终极相争。",
+        "xiangShuFocus": "乾上坎下，外健内险。综卦为需，说明争端与等待时机相邻：不该争时，需先停。",
+        "practicalSynthesis": "现实中适合合同纠纷、团队冲突、客户投诉、法律风险。宜保留证据、寻求第三方、止于中道；忌意气用事。",
+        "keyLineReminder": "卦辞“终凶”最关键：赢到最后不一定是赢，争端拖到极处会损害根本。",
+        "studyQuestions": [
+          "我争的是原则、事实，还是情绪？",
+          "有没有可以止于中道的方案？",
+          "谁是这件事中的“大人”或公正机制？"
+        ],
+        "sourceStatus": "原典已逐卦可追溯；王弼/程颐/朱熹层为 v1.2A 摘要级核引，后续可继续升级为逐句原文摘引。"
       }
     },
     {
@@ -713,6 +863,31 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为坤上坎下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“明确负责人、制定纪律、以正当目标凝聚人。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "v1.2A complete for this hexagram",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/师",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "本条为可追溯学习摘要：原典逐卦可由 coreTextSource 核查；经典注解层为基于公开古籍资源的原创归纳，非逐字长引。"
+      },
+      "classicalStudy": {
+        "completion": "complete_v1_2A",
+        "originalFocus": "《师》讲组织与用众。卦辞“贞，丈人吉，无咎”说明动众必须守正，并由成熟有德者统领。",
+        "wangBiSummary": "义理取向上，师是众聚而需一主。若无正名、无纪律、无老成之帅，众力反成乱力。",
+        "chengYiSummary": "处事取向上，师强调纪律、责任与正当性。六五田有禽利执言，表示用众须有明确对象与正当理由。",
+        "zhuXiSummary": "本义取向上，占得师，多主组织、征伐、团队行动。宜任贤帅众，不可小人用事。",
+        "xiangShuFocus": "坤上坎下，地中有水，众藏险中。坤为众，坎为险，故用众必须谨慎。",
+        "practicalSynthesis": "现实中适合团队管理、项目攻坚、危机处理。宜明确负责人、纪律和目标；忌师出无名、内部混乱。",
+        "keyLineReminder": "上六“大君有命，开国承家，小人勿用”：成事之后最怕任用小人分权。",
+        "studyQuestions": [
+          "这次动员是否师出有名？",
+          "谁是能服众的丈人？",
+          "制度和纪律是否足以承载众力？"
+        ],
+        "sourceStatus": "原典已逐卦可追溯；王弼/程颐/朱熹层为 v1.2A 摘要级核引，后续可继续升级为逐句原文摘引。"
       }
     },
     {
@@ -802,6 +977,31 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为坎上坤下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“主动靠近值得信任的人，建立长期互信。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "v1.2A complete for this hexagram",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/比",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "本条为可追溯学习摘要：原典逐卦可由 coreTextSource 核查；经典注解层为基于公开古籍资源的原创归纳，非逐字长引。"
+      },
+      "classicalStudy": {
+        "completion": "complete_v1_2A",
+        "originalFocus": "《比》讲亲比与归附。卦辞“原筮，元永贞，无咎”说明亲比必须重新审察其根本，长期守正才无咎。",
+        "wangBiSummary": "义理取向上，比不是随意结党，而是下顺上、众归一。关键在所比之人是否正。",
+        "chengYiSummary": "修身处事上，比提醒人择善而从，亲近同道。后夫凶表示迟疑失时、后到不诚，难得其比。",
+        "zhuXiSummary": "本义取向上，占得比，适合结盟、亲近、归附，但须审察对象与长期正当性。",
+        "xiangShuFocus": "坎上坤下，水在地上，众阴亲附一阳。与师相综，师偏用众，比偏亲众。",
+        "practicalSynthesis": "现实中适合合作伙伴、客户关系、团队凝聚。宜主动建立长期互信；忌依附错误对象或迟疑观望。",
+        "keyLineReminder": "上六“比之无首，凶”：关系没有正当中心，最终会散乱。",
+        "studyQuestions": [
+          "我正在亲近的人或组织是否值得长期比附？",
+          "这段关系有共同中心吗？",
+          "我是否因为迟疑而错过建立信任的时机？"
+        ],
+        "sourceStatus": "原典已逐卦可追溯；王弼/程颐/朱熹层为 v1.2A 摘要级核引，后续可继续升级为逐句原文摘引。"
       }
     },
     {
@@ -891,6 +1091,31 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为巽上乾下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“小范围试点、积累证据、控制节奏。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "v1.2A complete for this hexagram",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/小畜",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "本条为可追溯学习摘要：原典逐卦可由 coreTextSource 核查；经典注解层为基于公开古籍资源的原创归纳，非逐字长引。"
+      },
+      "classicalStudy": {
+        "completion": "complete_v1_2A",
+        "originalFocus": "《小畜》讲小有蓄积而未成大雨。卦辞“密云不雨，自我西郊”说明条件已聚但尚未释放。",
+        "wangBiSummary": "义理取向上，小畜是一阴畜五阳，柔小之力只能暂畜刚健，不能完全制止大势。",
+        "chengYiSummary": "处事取向上，小畜提醒人积小、养小、修细节。九五有孚挛如，说明小畜要靠诚信相系。",
+        "zhuXiSummary": "本义取向上，占得小畜，事有积累但未能大成，宜守正小进，不宜急求大获。",
+        "xiangShuFocus": "巽上乾下，风行天上，柔风畜乾健。与履相邻，说明有积蓄后仍要谨慎履行。",
+        "practicalSynthesis": "现实中适合产品打磨、现金流管理、市场测试。宜小范围验证、积累证据；忌以小成误判大势。",
+        "keyLineReminder": "六四“有孚，血去惕出”关键：小柔能畜大刚，靠的是诚信与警惕。",
+        "studyQuestions": [
+          "我现在只有小积累，还是已经具备大推进条件？",
+          "哪些细节正在蓄养未来机会？",
+          "我是否因小成而过早放大？"
+        ],
+        "sourceStatus": "原典已逐卦可追溯；王弼/程颐/朱熹层为 v1.2A 摘要级核引，后续可继续升级为逐句原文摘引。"
       }
     },
     {
@@ -980,6 +1205,31 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为乾上兑下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“尊重规则、谨慎表达、步步确认。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "v1.2A complete for this hexagram",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/履",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "本条为可追溯学习摘要：原典逐卦可由 coreTextSource 核查；经典注解层为基于公开古籍资源的原创归纳，非逐字长引。"
+      },
+      "classicalStudy": {
+        "completion": "complete_v1_2A",
+        "originalFocus": "《履》讲履行与礼。卦辞“履虎尾，不咥人，亨”说明行于危险之后而能亨，关键在礼与分寸。",
+        "wangBiSummary": "义理取向上，履是以柔履刚、以悦应健。面对强势或危险对象，不靠硬碰硬，而靠礼序。",
+        "chengYiSummary": "处事取向上，履提醒人谨慎履行自己的位置。素履、坦坦履、视履考祥，都是从行为中见吉凶。",
+        "zhuXiSummary": "本义取向上，占得履，所问多涉行动、礼法、上下关系。宜谨慎守礼，不可冒犯威严。",
+        "xiangShuFocus": "乾上兑下，天上泽下，悦而履健。与小畜相综，前者蓄小，后者谨履。",
+        "practicalSynthesis": "现实中适合谈判拜访、高压合作、合规事务。宜尊重规则、步步确认；忌轻率越界。",
+        "keyLineReminder": "六三“眇能视，跛能履，履虎尾，咥人，凶”警示能力不足却强行履险。",
+        "studyQuestions": [
+          "我面对的是怎样的“虎”？",
+          "我的行为是否合礼、合位？",
+          "我是否在能力不足时强行冒险？"
+        ],
+        "sourceStatus": "原典已逐卦可追溯；王弼/程颐/朱熹层为 v1.2A 摘要级核引，后续可继续升级为逐句原文摘引。"
       }
     },
     {
@@ -1069,6 +1319,31 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为坤上乾下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“趁势推进、保持上下沟通、让资源流动。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "v1.2A complete for this hexagram",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/泰",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "本条为可追溯学习摘要：原典逐卦可由 coreTextSource 核查；经典注解层为基于公开古籍资源的原创归纳，非逐字长引。"
+      },
+      "classicalStudy": {
+        "completion": "complete_v1_2A",
+        "originalFocus": "《泰》讲天地交而万物通。卦辞“小往大来，吉亨”说明阴退阳来，上下交感，局势通泰。",
+        "wangBiSummary": "义理取向上，泰在通，不在享乐。通泰时要让上下、内外、大小资源真正交流。",
+        "chengYiSummary": "处事取向上，泰提醒人在顺境中保持忧患。九三无平不陂、无往不复，提示泰中已有否的可能。",
+        "zhuXiSummary": "本义取向上，占得泰，事多通达可行，但仍须守正并防盛极之变。",
+        "xiangShuFocus": "坤上乾下，天气下降、地气上升，天地交。错卦为否，泰否相反相成，须同时学习。",
+        "practicalSynthesis": "现实中适合业务增长、组织顺畅、合作推进。宜趁势建设制度，让沟通保持流动；忌盛时松懈。",
+        "keyLineReminder": "九三“无平不陂，无往不复”：顺境中最重要的是预见周期变化。",
+        "studyQuestions": [
+          "当前通达来自真实结构，还是短暂顺风？",
+          "上下是否真的交感？",
+          "我如何在泰时防否？"
+        ],
+        "sourceStatus": "原典已逐卦可追溯；王弼/程颐/朱熹层为 v1.2A 摘要级核引，后续可继续升级为逐句原文摘引。"
       }
     },
     {
@@ -1158,6 +1433,31 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为乾上坤下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“保留核心实力、减少争辩、等待结构变化。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "v1.2A complete for this hexagram",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/否",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "本条为可追溯学习摘要：原典逐卦可由 coreTextSource 核查；经典注解层为基于公开古籍资源的原创归纳，非逐字长引。"
+      },
+      "classicalStudy": {
+        "completion": "complete_v1_2A",
+        "originalFocus": "《否》讲天地不交。卦辞“否之匪人，不利君子贞，大往小来”说明正道受阻，小人势长。",
+        "wangBiSummary": "义理取向上，否不是永远坏，而是通道闭塞。君子在否时不可强行求通，应守正待变。",
+        "chengYiSummary": "处事取向上，否提醒人远小人、保正气。六二包承、九五休否，说明否中也有守位与转机。",
+        "zhuXiSummary": "本义取向上，占得否，多主闭塞不通。宜守正、保身、减少无谓争执，不宜强推。",
+        "xiangShuFocus": "乾上坤下，天上地下，各行其所而不交。错卦为泰，否泰循环，闭塞中要保存转泰之机。",
+        "practicalSynthesis": "现实中适合组织卡顿、合作停滞、市场低迷。宜保留核心实力、等待结构变化；忌强推不通。",
+        "keyLineReminder": "九五“休否，大人吉”关键：否到可休止时，必须靠大人中正来转局。",
+        "studyQuestions": [
+          "闭塞来自外部环境，还是内部不交？",
+          "我此时该守正还是求通？",
+          "转否为泰的关键人物或机制是什么？"
+        ],
+        "sourceStatus": "原典已逐卦可追溯；王弼/程颐/朱熹层为 v1.2A 摘要级核引，后续可继续升级为逐句原文摘引。"
       }
     },
     {
@@ -1247,6 +1547,31 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为乾上离下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“明确共同目标、公开透明、以正道聚人。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "v1.2A complete for this hexagram",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/同人",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "本条为可追溯学习摘要：原典逐卦可由 coreTextSource 核查；经典注解层为基于公开古籍资源的原创归纳，非逐字长引。"
+      },
+      "classicalStudy": {
+        "completion": "complete_v1_2A",
+        "originalFocus": "《同人》讲公开正大的同道。卦辞“同人于野，亨，利涉大川，利君子贞”强调同人须广、公、正。",
+        "wangBiSummary": "义理取向上，同人贵在公同，不贵在私党。真正的同，是以正道合众而非利益结群。",
+        "chengYiSummary": "处事取向上，同人提醒人出门同人、先号咷后笑，说明合作会经历分歧，但以公正可终合。",
+        "zhuXiSummary": "本义取向上，占得同人，宜结伴同道、公开合作，若私密偏狭则失同人之义。",
+        "xiangShuFocus": "乾上离下，天与火同明，文明向上而合于健。与大有相综，先有同道，后可大有。",
+        "practicalSynthesis": "现实中适合联盟合作、跨部门项目、社群组织。宜公开透明、明确共同目标；忌小圈子私利。",
+        "keyLineReminder": "九五“同人，先号咷而后笑”：真正合作可能先冲突，后因正应而合。",
+        "studyQuestions": [
+          "我的合作是公同还是私党？",
+          "共同目标是否足够公开正大？",
+          "眼前冲突是否可能是深度合作前的磨合？"
+        ],
+        "sourceStatus": "原典已逐卦可追溯；王弼/程颐/朱熹层为 v1.2A 摘要级核引，后续可继续升级为逐句原文摘引。"
       }
     },
     {
@@ -1336,6 +1661,31 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为离上乾下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“用资源成就长期价值，保持谦明与秩序。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "v1.2A complete for this hexagram",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/大有",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "本条为可追溯学习摘要：原典逐卦可由 coreTextSource 核查；经典注解层为基于公开古籍资源的原创归纳，非逐字长引。"
+      },
+      "classicalStudy": {
+        "completion": "complete_v1_2A",
+        "originalFocus": "《大有》讲大有资源而能顺天休命。卦辞“大有，元亨”显示富有、光明与亨通，但责任也随之增大。",
+        "wangBiSummary": "义理取向上，大有不是占有越多越好，而是柔尊而能有众刚，关键在以明德驾驭资源。",
+        "chengYiSummary": "处事取向上，大有提醒人富而不骄、明而不私。上九自天祐之，吉无不利，强调顺天合德。",
+        "zhuXiSummary": "本义取向上，占得大有，多主资源丰厚、机会充足。宜守正用众，使所有成为所用。",
+        "xiangShuFocus": "离上乾下，火在天上，光明普照。与同人相综：同人聚众，大有得众而用之。",
+        "practicalSynthesis": "现实中适合资源配置、品牌增长、投资机会。宜把资源投向长期价值；忌炫耀占有、浪费或得势忘形。",
+        "keyLineReminder": "六五“厥孚交如，威如，吉”：资源多时必须以诚信交众，同时保持威仪。",
+        "studyQuestions": [
+          "我拥有的资源是否正在服务正当目标？",
+          "我有明德驾驭资源，还是被资源反驾驭？",
+          "如何让大有变成长期责任？"
+        ],
+        "sourceStatus": "原典已逐卦可追溯；王弼/程颐/朱熹层为 v1.2A 摘要级核引，后续可继续升级为逐句原文摘引。"
       }
     },
     {
@@ -1425,6 +1775,31 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为坤上艮下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“降低姿态、补短板、让功劳归团队。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "v1.2A complete for this hexagram",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/谦",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "本条为可追溯学习摘要：原典逐卦可由 coreTextSource 核查；经典注解层为基于公开古籍资源的原创归纳，非逐字长引。"
+      },
+      "classicalStudy": {
+        "completion": "complete_v1_2A",
+        "originalFocus": "《谦》讲谦德。卦辞“亨，君子有终”说明谦能通达，而且能使君子善终。",
+        "wangBiSummary": "义理取向上，谦是损高益下、平衡盈满之道。它不是自卑，而是使德行不满溢。",
+        "chengYiSummary": "修身取向上，谦为君子终身之德。劳谦、鸣谦、撝谦，都是把功劳、名声和力量降到合宜之处。",
+        "zhuXiSummary": "本义取向上，占得谦，多吉。凡事宜以谦退处之，越有功越不可自满。",
+        "xiangShuFocus": "坤上艮下，地中有山，高者藏于下。错卦为履，履重礼，谦重德，两者皆防越位。",
+        "practicalSynthesis": "现实中适合领导修养、合作沟通、学习成长。宜降低姿态、补短板、让功劳归团队；忌假谦虚或无担当。",
+        "keyLineReminder": "九三“劳谦，君子有终，吉”：有功而谦，才是真谦。",
+        "studyQuestions": [
+          "我的谦是德行，还是回避责任？",
+          "我是否能有功而不居功？",
+          "哪里需要损高益下？"
+        ],
+        "sourceStatus": "原典已逐卦可追溯；王弼/程颐/朱熹层为 v1.2A 摘要级核引，后续可继续升级为逐句原文摘引。"
       }
     },
     {
@@ -1514,6 +1889,31 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为震上坤下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“提前准备、调动士气、把快乐转化为行动。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "v1.2A complete for this hexagram",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/豫",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "本条为可追溯学习摘要：原典逐卦可由 coreTextSource 核查；经典注解层为基于公开古籍资源的原创归纳，非逐字长引。"
+      },
+      "classicalStudy": {
+        "completion": "complete_v1_2A",
+        "originalFocus": "《豫》讲喜悦、预备与动员。卦辞“利建侯行师”说明安乐不是终点，而可转化为组织与行动。",
+        "wangBiSummary": "义理取向上，豫是顺以动，众因悦而从。悦若无正，则变成怠惰；悦若有正，则可以动众。",
+        "chengYiSummary": "处事取向上，豫提醒人先预备后行动。六二介于石，不终日，贞吉，说明能在安乐中保持警醒。",
+        "zhuXiSummary": "本义取向上，占得豫，事有悦动之象。宜预先筹划、动员众人，但不可沉迷逸乐。",
+        "xiangShuFocus": "震上坤下，雷出地奋，众顺而动。与谦相综：谦先抑己，豫再动众。",
+        "practicalSynthesis": "现实中适合活动筹备、团队激励、推广上市。宜提前准备、调动士气；忌只有情绪没有执行。",
+        "keyLineReminder": "六二“介于石，不终日，贞吉”关键：在豫乐之中能迅速觉察，不沉溺，才吉。",
+        "studyQuestions": [
+          "我的喜悦是否已经转化为准备？",
+          "团队被激励后有没有制度承接？",
+          "我是否在安乐中失去警醒？"
+        ],
+        "sourceStatus": "原典已逐卦可追溯；王弼/程颐/朱熹层为 v1.2A 摘要级核引，后续可继续升级为逐句原文摘引。"
       }
     },
     {
@@ -1603,6 +2003,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为兑上震下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“观察趋势、选择正确跟随对象、灵活调整。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/随",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -1692,6 +2105,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为艮上巽下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“承认问题、拆解病根、分阶段治理。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/蛊",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -1781,6 +2207,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为坤上兑下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“主动关怀、明确标准、建立长期防线。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/临",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -1870,6 +2309,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为巽上坤下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“先观察再判断，以自身行为建立可信度。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/观",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -1959,6 +2411,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为离上震下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“找出阻塞点、明确规则、果断处理。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/噬嗑",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -2048,6 +2513,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为艮上离下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“优化呈现、修饰表达、保证内容真实。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/贲",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -2137,6 +2615,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为艮上坤下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“止损、保核心资源、减少不必要承诺。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/剥",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -2226,6 +2717,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为坤上震下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“回归初心、小步重启、珍惜微弱转机。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/复",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -2315,6 +2819,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为乾上震下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“检查动机、顺势而为、减少人为强求。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/无妄",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -2404,6 +2921,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为艮上乾下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“系统积累、训练能力、等待大用。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/大畜",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -2493,6 +3023,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为艮上震下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“慎言语、节饮食、选择正确养分。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/颐",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -2582,6 +3125,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为兑上巽下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“识别承载极限、调整结构、独立担当。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/大过",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -2671,6 +3227,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为坎上坎下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“保持诚信、分段过险、建立风险预案。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/坎",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -2760,6 +3329,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为离上离下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“让信息透明、照见问题、保持柔中守正。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/离",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -2849,6 +3431,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为兑上艮下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“虚心接纳、真诚回应、守住边界。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/咸",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -2938,6 +3533,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为震上巽下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“建立可持续节奏，长期复利。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/恒",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -3027,6 +3635,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为乾上艮下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“及时退出不良局面，保持距离与尊严。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/遁",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -3116,6 +3737,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为震上乾下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“以规则约束力量，正大而行。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/大壮",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -3205,6 +3839,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为离上坤下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“把明德做出来，让成果被看见。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/晋",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -3294,6 +3941,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为坤上离下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“低调守正、保存实力、避免正面冲撞。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/明夷",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -3383,6 +4043,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为巽上离下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“明确责任、建立规则、以稳定言行影响人。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/家人",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -3472,6 +4145,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为离上兑下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“承认差异、小事先通、建立共同语言。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/睽",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -3561,6 +4247,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为坎上艮下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“暂停硬冲，反省自身，寻找大人帮助。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/蹇",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -3650,6 +4349,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为震上坎下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“快速清障、赦过宥罪、重启秩序。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/解",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -3739,6 +4451,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为艮上兑下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“减法管理、去除病根、保留核心价值。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/损",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -3828,6 +4553,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为巽上震下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“把资源投向能生长的人与事，快速改过。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/益",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -3917,6 +4655,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为兑上乾下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“明确底线，公开说明，果断处理关键问题。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/夬",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -4006,6 +4757,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为乾上巽下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“先设边界，观察其是否可久。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/姤",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -4095,6 +4859,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为兑上坤下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“明确中心、建立仪式感、同时防范意外。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/萃",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -4184,6 +4961,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为坤上巽下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“一步一阶、稳步提升、寻求贵人指导。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/升",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -4273,6 +5063,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为兑上坎下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“保持志向、减少解释、把有限资源用在关键处。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/困",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -4362,6 +5165,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为坎上巽下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“维护底层系统，让资源可持续被使用。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/井",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -4451,6 +5267,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为兑上离下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“先建立共识，再推动制度性改变。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/革",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -4540,6 +5369,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为离上巽下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“端正位置，建立承载使命的系统。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/鼎",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -4629,6 +5471,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为震上震下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“先稳核心，再反省改进。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/震",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -4718,6 +5573,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为艮上艮下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“停下不该做的事，守住位置。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/艮",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -4807,6 +5675,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为巽上艮下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“建立阶段目标，按礼序推进。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/渐",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -4896,6 +5777,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为震上兑下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“先校准身份、责任和长期后果。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/归妹",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -4985,6 +5879,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为震上离下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“趁盛而治，照见问题，预防高峰后的下滑。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/丰",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -5074,6 +5981,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为离上艮下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“尊重当地规则，保管资源，小步行动。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/旅",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -5163,6 +6083,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为巽上巽下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“耐心进入细节，反复沟通执行。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/巽",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -5252,6 +6185,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为兑上兑下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“以真诚建立愉悦关系，讲习互助。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/兑",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -5341,6 +6287,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为巽上坎下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“公开号令、安定中心、释放旧压力。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/涣",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -5430,6 +6389,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为坎上兑下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“建立合理边界和可持续制度。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/节",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -5519,6 +6491,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为巽上兑下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“从内心真实出发，言行一致。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/中孚",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -5608,6 +6593,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为震上艮下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“过于恭敬、谨慎、节俭，先做小事。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/小过",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -5697,6 +6695,19 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为坎上离下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“复盘隐患、维护秩序、善始善终。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/既济",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -5786,9 +6797,22 @@ const YIJING_DATA = {
         "xiangShu": "象数结构提示：本卦为离上坎下。上卦多看外部形势、目标或显性压力；下卦多看内部基础、动机或起点。互卦可看内在动力，错卦可看反面风险，综卦可看换位视角。",
         "applicationBridge": "现实合参：不要把卦当作结论，而要把它当作问题框架。先问：我现在的时机是否合适？位置是否合正？风险是否已看见？下一步是否符合“稳住最后步骤，辨明位置，谨慎完成闭环。”？",
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
+      },
+      "sourceTrace": {
+        "status": "pending_v1_2",
+        "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/未济",
+        "ctextBookOfChanges": "https://ctext.org/book-of-changes",
+        "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
+        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
+        "note": "v1.2A 先完成第1—16卦；本卦将在后续 v1.2B/C/D 批次中完成同等质量核引。"
+      },
+      "classicalStudy": {
+        "completion": "pending_v1_2",
+        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     }
   ],
-  "version": "1.1B",
-  "dataStatus": "v1.1B：新增经典注解合参层，提供王弼义理取向、程颐义理取向、朱熹本义取向、象数结构与现实合参提示。"
+  "version": "1.2A",
+  "dataStatus": "v1.2A：已完成第1—16卦经典核引学习层；第17—64卦保留v1.1B合参层并等待v1.2B/C/D逐批完成。"
 };
