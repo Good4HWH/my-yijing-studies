@@ -132,7 +132,7 @@ function commentaryBlock(h) {
 
 function classicalStudyBlock(h) {
   const s = h.classicalStudy || {};
-  if (s.completion !== "complete_v1_2A") {
+  if (!(s.completion || "").startsWith("complete_v1_2")) {
     return `<div class="pending-box">
       <strong>v1.2 核引状态：</strong>${esc(s.sourceStatus || "待后续批次完成。")}
     </div>`;
@@ -562,7 +562,7 @@ function renderResult(r) {
 
       <div class="section">
         <h3>v1.2 核引提示</h3>
-        ${h.classicalStudy?.completion === "complete_v1_2A" ? `
+        ${(h.classicalStudy?.completion || "").startsWith("complete_v1_2") ? `
           <div class="application-list">
             <div class="app-row"><strong>原典重点</strong><p>${esc(h.classicalStudy.originalFocus || "")}</p></div>
             <div class="app-row"><strong>关键爻位</strong><p>${esc(h.classicalStudy.keyLineReminder || "")}</p></div>
@@ -638,7 +638,7 @@ function calculateDivination() {
     upper, lower, line,
     hex: h.number,
     changed: ch.number,
-    appVersion: "1.2A"
+    appVersion: "1.2B"
   };
 
   renderResult(lastResult);
@@ -729,7 +729,7 @@ function delRecord(id) {
 function exportBackup() {
   const payload = {
     app: "我的易经｜学习与数字卦",
-    version: "1.2A",
+    version: "1.2B",
     exportedAt: new Date().toISOString(),
     records: getRecords(),
     favorites: getFavorites(),
