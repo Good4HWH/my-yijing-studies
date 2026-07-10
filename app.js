@@ -111,6 +111,25 @@ function applicationBlock(h) {
   `).join("")}</div>`;
 }
 
+function commentaryBlock(h) {
+  const c = h.commentary || {};
+  const rows = [
+    ["合参总览", c.overview],
+    ["王弼义理取向", c.wangBiStyle],
+    ["程颐义理取向", c.chengYiStyle],
+    ["朱熹本义取向", c.zhuXiStyle],
+    ["象数结构提示", c.xiangShu],
+    ["现实合参", c.applicationBridge]
+  ];
+  return `<div class="commentary-list">${rows.map(([k, v]) => `
+    <details class="commentary-item" ${k === "合参总览" ? "open" : ""}>
+      <summary>${k}</summary>
+      <p>${esc(v || "")}</p>
+    </details>
+  `).join("")}
+  <p class="quality-note">${esc(c.qualityTag || "")}</p></div>`;
+}
+
 function getRecords() {
   try {
     return JSON.parse(localStorage.getItem("yijing_records") || "[]");
@@ -160,6 +179,7 @@ function searchableText(h) {
     h.study?.actionAdvice,
     h.study?.riskWarning,
     ...(Object.values(h.study?.applications || {})),
+    ...(Object.values(h.commentary || {})),
     ...(h.yao || []),
     ...(h.yaoPlain || [])
   ].join(" ");
@@ -293,6 +313,12 @@ function openHex(n, keepView = false) {
     </div>
 
     <div class="card">
+      <h3>经典注解合参</h3>
+      <p class="muted">这是学习型摘要，不是逐字引文。用于帮助你从义理、修身、本义、象数与现实应用五个角度理解本卦。</p>
+      ${commentaryBlock(h)}
+    </div>
+
+    <div class="card">
       <div class="section first">
         <h3>卦辞</h3>
         <p class="classic">${esc(h.guaci)}</p>
@@ -390,6 +416,10 @@ ${interpret(r, h, ch)}
 行动建议：${h.study?.actionAdvice || ""}
 后续方向：${ch.study?.oneLineMeaning || ""}
 
+经典合参：
+${h.commentary?.overview || ""}
+${h.commentary?.applicationBridge || ""}
+
 复盘备注：
 ${r.reflection || ""}`;
 }
@@ -471,6 +501,16 @@ function renderResult(r) {
       </div>
 
       <div class="section">
+        <h3>经典合参提示</h3>
+        <div class="application-list">
+          <div class="app-row"><strong>义理主旨</strong><p>${esc(h.commentary?.overview || "")}</p></div>
+          <div class="app-row"><strong>处事提醒</strong><p>${esc(h.commentary?.chengYiStyle || "")}</p></div>
+          <div class="app-row"><strong>象数观察</strong><p>${esc(h.commentary?.xiangShu || "")}</p></div>
+          <div class="app-row"><strong>现实问题框架</strong><p>${esc(h.commentary?.applicationBridge || "")}</p></div>
+        </div>
+      </div>
+
+      <div class="section">
         <h3>辅助观察：互卦 / 错卦 / 综卦</h3>
         <p class="muted">这不是额外占断，而是帮助你从内在结构、反面风险、换位视角学习本卦。</p>
         ${relationCards(h, true)}
@@ -526,7 +566,7 @@ function calculateDivination() {
     upper, lower, line,
     hex: h.number,
     changed: ch.number,
-    appVersion: "1.1A"
+    appVersion: "1.1B"
   };
 
   renderResult(lastResult);
@@ -617,7 +657,7 @@ function delRecord(id) {
 function exportBackup() {
   const payload = {
     app: "我的易经｜学习与数字卦",
-    version: "1.1A",
+    version: "1.1B",
     exportedAt: new Date().toISOString(),
     records: getRecords(),
     favorites: getFavorites(),
