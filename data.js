@@ -3829,17 +3829,29 @@ const YIJING_DATA = {
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
       },
       "sourceTrace": {
-        "status": "pending_v1_2",
+        "status": "v1.2C complete for this hexagram",
         "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/遁",
         "ctextBookOfChanges": "https://ctext.org/book-of-changes",
         "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
-        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "zhuXiWikisourceGeneral": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)",
         "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
-        "note": "v1.2A/B 已完成第1—32卦；本卦将在后续 v1.2C/D 批次中完成同等质量核引。"
+        "note": "本条为可追溯学习摘要：原典逐卦可由 coreTextSource 核查；经典注解层为基于公开古籍资源的原创归纳，非逐字长引。"
       },
       "classicalStudy": {
-        "completion": "pending_v1_2",
-        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
+        "completion": "complete_v1_2C",
+        "originalFocus": "《遯》讲退避与保正。卦辞“亨，小利贞”提示退不是失败，而是在小人之势渐长、时机不宜强进时，以退保通、以正保身。",
+        "wangBiSummary": "义理取向上，遯贵在知时。刚者能退，并非怯弱，而是识阴长之势，不与其争一时。",
+        "chengYiSummary": "处事取向上，遯提醒君子远小人而不恶，严正保持距离。退避要及时、得体、无怨尤。",
+        "zhuXiSummary": "本义取向上，占得遯，多主不宜大进。若问事业或关系，宜审时退守、保存正道；若动爻不同，则看退得早晚、是否牵系。",
+        "xiangShuFocus": "乾上艮下，天下有山，天高而山止，象退藏。综卦为大壮，壮极而知退，退后方能避免逞强。",
+        "practicalSynthesis": "现实中适合职场避险、市场撤退、关系止损、风险管理。宜及时退出不良局面，保持距离与尊严；忌退得太晚或恋战。",
+        "keyLineReminder": "上九“肥遯，无不利”关键：退得从容自在、无所牵累，是遯卦最高境界。",
+        "studyQuestions": [
+          "我现在是该进，还是该退以保正？",
+          "我是否被名利、情绪或关系牵系而退不出来？",
+          "退避之后要保住什么核心价值？"
+        ],
+        "sourceStatus": "原典已逐卦可追溯；王弼/程颐/朱熹层为 v1.2C 摘要级核引，后续可继续升级为逐句原文摘引。"
       }
     },
     {
@@ -3931,17 +3943,29 @@ const YIJING_DATA = {
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
       },
       "sourceTrace": {
-        "status": "pending_v1_2",
+        "status": "v1.2C complete for this hexagram",
         "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/大壮",
         "ctextBookOfChanges": "https://ctext.org/book-of-changes",
         "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
-        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "zhuXiWikisourceGeneral": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)",
         "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
-        "note": "v1.2A/B 已完成第1—32卦；本卦将在后续 v1.2C/D 批次中完成同等质量核引。"
+        "note": "本条为可追溯学习摘要：原典逐卦可由 coreTextSource 核查；经典注解层为基于公开古籍资源的原创归纳，非逐字长引。"
       },
       "classicalStudy": {
-        "completion": "pending_v1_2",
-        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
+        "completion": "complete_v1_2C",
+        "originalFocus": "《大壮》讲强盛而须守正。卦辞“利贞”说明力量大并不自动吉，必须正大而行。",
+        "wangBiSummary": "义理取向上，大壮贵在刚而不过。刚动则壮，但若无贞正，壮反成暴。",
+        "chengYiSummary": "处事取向上，大壮提醒君子“非礼弗履”。有力量时更要以礼自限，不可因强而越界。",
+        "zhuXiSummary": "本义取向上，占得大壮，主势力增强、行动力强。宜守正用力，不宜任性冲撞。",
+        "xiangShuFocus": "震上乾下，雷在天上，刚健而动，声势盛大。综卦为遯，强盛之中须知退；退与壮互相校正。",
+        "practicalSynthesis": "现实中适合增长期管理、谈判优势、权力使用、身体精力旺盛。宜以规则约束力量；忌逞强、压人、冒犯边界。",
+        "keyLineReminder": "九三“羝羊触藩，羸其角”关键：只知用壮，反而会被自己冲撞的对象困住。",
+        "studyQuestions": [
+          "我现在的力量是否合礼、合正？",
+          "我是否正在用角撞篱笆？",
+          "哪里需要把强势转化为制度和责任？"
+        ],
+        "sourceStatus": "原典已逐卦可追溯；王弼/程颐/朱熹层为 v1.2C 摘要级核引，后续可继续升级为逐句原文摘引。"
       }
     },
     {
@@ -4033,17 +4057,29 @@ const YIJING_DATA = {
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
       },
       "sourceTrace": {
-        "status": "pending_v1_2",
+        "status": "v1.2C complete for this hexagram",
         "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/晋",
         "ctextBookOfChanges": "https://ctext.org/book-of-changes",
         "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
-        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "zhuXiWikisourceGeneral": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)",
         "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
-        "note": "v1.2A/B 已完成第1—32卦；本卦将在后续 v1.2C/D 批次中完成同等质量核引。"
+        "note": "本条为可追溯学习摘要：原典逐卦可由 coreTextSource 核查；经典注解层为基于公开古籍资源的原创归纳，非逐字长引。"
       },
       "classicalStudy": {
-        "completion": "pending_v1_2",
-        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
+        "completion": "complete_v1_2C",
+        "originalFocus": "《晋》讲进升与光明显现。卦辞“康侯用锡马蕃庶，昼日三接”显示有德有功者被赏识、被接见、被任用。",
+        "wangBiSummary": "义理取向上，晋是明出地上，光明逐渐上行。进不是抢位，而是德明而顺势上达。",
+        "chengYiSummary": "处事取向上，晋提醒人自昭明德。初进受阻不必急躁，进中忧惧也可守正；上进必须以明德为根。",
+        "zhuXiSummary": "本义取向上，占得晋，多主进步、升迁、被看见。宜以正德求进，不宜贪速求显。",
+        "xiangShuFocus": "离上坤下，明出地上，象日升。综卦为明夷，明出为晋，明入地中则为明夷，显与藏须随时。",
+        "practicalSynthesis": "现实中适合升职机会、品牌曝光、项目推进、能力展示。宜把明德做出来，让成果被看见；忌只求曝光不修内功。",
+        "keyLineReminder": "六五“失得勿恤，往吉，无不利”关键：居高进用时，不计较小得失，反而无不利。",
+        "studyQuestions": [
+          "我正在凭什么上进：德、功，还是包装？",
+          "这个曝光机会是否合时合位？",
+          "我是否太在意一时得失？"
+        ],
+        "sourceStatus": "原典已逐卦可追溯；王弼/程颐/朱熹层为 v1.2C 摘要级核引，后续可继续升级为逐句原文摘引。"
       }
     },
     {
@@ -4135,17 +4171,29 @@ const YIJING_DATA = {
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
       },
       "sourceTrace": {
-        "status": "pending_v1_2",
+        "status": "v1.2C complete for this hexagram",
         "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/明夷",
         "ctextBookOfChanges": "https://ctext.org/book-of-changes",
         "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
-        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "zhuXiWikisourceGeneral": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)",
         "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
-        "note": "v1.2A/B 已完成第1—32卦；本卦将在后续 v1.2C/D 批次中完成同等质量核引。"
+        "note": "本条为可追溯学习摘要：原典逐卦可由 coreTextSource 核查；经典注解层为基于公开古籍资源的原创归纳，非逐字长引。"
       },
       "classicalStudy": {
-        "completion": "pending_v1_2",
-        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
+        "completion": "complete_v1_2C",
+        "originalFocus": "《明夷》讲光明受伤与晦藏其明。卦辞“利艰贞”说明处暗世或难局中，须内明外柔、艰难守正。",
+        "wangBiSummary": "义理取向上，明夷不是光明消失，而是光明入地、暂不宜显。能晦其明，是为了保其正。",
+        "chengYiSummary": "处事取向上，明夷重在艰贞。文王、箕子之象提示：大难中仍可保存文明与志向。",
+        "zhuXiSummary": "本义取向上，占得明夷，多主受伤、受压、不得志。宜低调守正，不宜炫明争胜。",
+        "xiangShuFocus": "坤上离下，明入地中。综卦为晋，晋是明出，明夷是明藏；两者显示同一光明在不同时势中的显隐。",
+        "practicalSynthesis": "现实中适合职场压抑、不良组织、风险时期、低谷修行。宜低调守正、保存实力；忌逞明受伤。",
+        "keyLineReminder": "六五“箕子之明夷，利贞”关键：在黑暗中心保留正志，有时比正面抗争更难也更重要。",
+        "studyQuestions": [
+          "我的光明现在适合显露，还是需要保存？",
+          "我如何内文明而外柔顺？",
+          "这次受伤有没有让我放弃内在正志？"
+        ],
+        "sourceStatus": "原典已逐卦可追溯；王弼/程颐/朱熹层为 v1.2C 摘要级核引，后续可继续升级为逐句原文摘引。"
       }
     },
     {
@@ -4237,17 +4285,29 @@ const YIJING_DATA = {
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
       },
       "sourceTrace": {
-        "status": "pending_v1_2",
+        "status": "v1.2C complete for this hexagram",
         "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/家人",
         "ctextBookOfChanges": "https://ctext.org/book-of-changes",
         "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
-        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "zhuXiWikisourceGeneral": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)",
         "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
-        "note": "v1.2A/B 已完成第1—32卦；本卦将在后续 v1.2C/D 批次中完成同等质量核引。"
+        "note": "本条为可追溯学习摘要：原典逐卦可由 coreTextSource 核查；经典注解层为基于公开古籍资源的原创归纳，非逐字长引。"
       },
       "classicalStudy": {
-        "completion": "pending_v1_2",
-        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
+        "completion": "complete_v1_2C",
+        "originalFocus": "《家人》讲家道、角色与内部秩序。卦辞“利女贞”提示内位得正、家道有序，方能由家及天下。",
+        "wangBiSummary": "义理取向上，家人以正位为本。父父、子子、夫夫、妇妇，各安其位，则家道正。",
+        "chengYiSummary": "修身处事上，家人重在言有物、行有恒。家庭或组织内部不是只靠情感，更靠长期稳定的责任和规矩。",
+        "zhuXiSummary": "本义取向上，占得家人，多主家庭、组织内部、角色责任。宜正名分、明责任、守恒常。",
+        "xiangShuFocus": "巽上离下，风自火出，内明而外入。综卦为睽，家道若不正，亲近之人也会生睽离。",
+        "practicalSynthesis": "现实中适合家庭关系、公司制度、团队文化、亲密关系。宜明确责任、建立规则；忌家中无序、角色错位。",
+        "keyLineReminder": "上九“有孚威如，终吉”关键：家道需要诚信，也需要可信的威严。",
+        "studyQuestions": [
+          "我的家庭或组织中，哪些角色没有正位？",
+          "我说话是否有物，行动是否有恒？",
+          "亲密关系中有没有缺少边界和威仪？"
+        ],
+        "sourceStatus": "原典已逐卦可追溯；王弼/程颐/朱熹层为 v1.2C 摘要级核引，后续可继续升级为逐句原文摘引。"
       }
     },
     {
@@ -4339,17 +4399,29 @@ const YIJING_DATA = {
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
       },
       "sourceTrace": {
-        "status": "pending_v1_2",
+        "status": "v1.2C complete for this hexagram",
         "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/睽",
         "ctextBookOfChanges": "https://ctext.org/book-of-changes",
         "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
-        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "zhuXiWikisourceGeneral": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)",
         "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
-        "note": "v1.2A/B 已完成第1—32卦；本卦将在后续 v1.2C/D 批次中完成同等质量核引。"
+        "note": "本条为可追溯学习摘要：原典逐卦可由 coreTextSource 核查；经典注解层为基于公开古籍资源的原创归纳，非逐字长引。"
       },
       "classicalStudy": {
-        "completion": "pending_v1_2",
-        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
+        "completion": "complete_v1_2C",
+        "originalFocus": "《睽》讲分歧、背离与异中求同。卦辞“小事吉”提示大分歧时先从小处求通。",
+        "wangBiSummary": "义理取向上，睽是志不同而理未必绝。天地、男女、万物皆有差异，但能在更高层面相通。",
+        "chengYiSummary": "处事取向上，睽提醒君子同而异。面对误解和对立，不强求一致，而是识别可通之处。",
+        "zhuXiSummary": "本义取向上，占得睽，多主意见不合、关系背离、误解。小事可行，大事宜缓。",
+        "xiangShuFocus": "离上兑下，火上泽下，方向相背。综卦为家人，家人不正则睽，睽能化解则可回到家人之合。",
+        "practicalSynthesis": "现实中适合跨文化合作、团队冲突、夫妻观念、市场定位。宜承认差异、小事先通；忌强求一致。",
+        "keyLineReminder": "上九“匪寇婚媾，往遇雨则吉”关键：最深的误解可能并非敌意，而是未被澄清的结合机会。",
+        "studyQuestions": [
+          "我们真的对立，还是只是视角不同？",
+          "现在可以先从哪件小事求通？",
+          "我是否把婚媾误看成寇敌？"
+        ],
+        "sourceStatus": "原典已逐卦可追溯；王弼/程颐/朱熹层为 v1.2C 摘要级核引，后续可继续升级为逐句原文摘引。"
       }
     },
     {
@@ -4441,17 +4513,29 @@ const YIJING_DATA = {
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
       },
       "sourceTrace": {
-        "status": "pending_v1_2",
+        "status": "v1.2C complete for this hexagram",
         "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/蹇",
         "ctextBookOfChanges": "https://ctext.org/book-of-changes",
         "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
-        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "zhuXiWikisourceGeneral": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)",
         "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
-        "note": "v1.2A/B 已完成第1—32卦；本卦将在后续 v1.2C/D 批次中完成同等质量核引。"
+        "note": "本条为可追溯学习摘要：原典逐卦可由 coreTextSource 核查；经典注解层为基于公开古籍资源的原创归纳，非逐字长引。"
       },
       "classicalStudy": {
-        "completion": "pending_v1_2",
-        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
+        "completion": "complete_v1_2C",
+        "originalFocus": "《蹇》讲艰难与知险而止。卦辞“利西南，不利东北，利见大人，贞吉”提示避险取平、求助大人、守正而行。",
+        "wangBiSummary": "义理取向上，蹇的智慧在见险能止。不是所有困难都要硬闯，有时止步与转向才是通路。",
+        "chengYiSummary": "处事取向上，蹇强调反身修德。外部受阻时，首先反省自身德行、路径与所依之人。",
+        "zhuXiSummary": "本义取向上，占得蹇，多主阻滞艰难。宜退回易行之地、见大人求助，不宜孤行险路。",
+        "xiangShuFocus": "坎上艮下，山上有水，水遇山阻。综卦为解，蹇极则求解，解来自识险、止险之后。",
+        "practicalSynthesis": "现实中适合项目卡关、路线错误、资源不足、人生低谷。宜暂停硬冲、反省自身、寻找帮助；忌明知险而硬闯。",
+        "keyLineReminder": "九五“大蹇朋来”关键：真正处大难者，若中正有德，会有朋友来助。",
+        "studyQuestions": [
+          "我面对的是可突破的难，还是应止的险？",
+          "谁是这件事中的大人或关键帮助者？",
+          "我需要反身修哪一德？"
+        ],
+        "sourceStatus": "原典已逐卦可追溯；王弼/程颐/朱熹层为 v1.2C 摘要级核引，后续可继续升级为逐句原文摘引。"
       }
     },
     {
@@ -4543,17 +4627,29 @@ const YIJING_DATA = {
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
       },
       "sourceTrace": {
-        "status": "pending_v1_2",
+        "status": "v1.2C complete for this hexagram",
         "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/解",
         "ctextBookOfChanges": "https://ctext.org/book-of-changes",
         "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
-        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "zhuXiWikisourceGeneral": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)",
         "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
-        "note": "v1.2A/B 已完成第1—32卦；本卦将在后续 v1.2C/D 批次中完成同等质量核引。"
+        "note": "本条为可追溯学习摘要：原典逐卦可由 coreTextSource 核查；经典注解层为基于公开古籍资源的原创归纳，非逐字长引。"
       },
       "classicalStudy": {
-        "completion": "pending_v1_2",
-        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
+        "completion": "complete_v1_2C",
+        "originalFocus": "《解》讲解除、脱险与宽宥。卦辞“利西南；无所往，其来复吉；有攸往，夙吉”说明解除之时贵在及时、顺众、复归中道。",
+        "wangBiSummary": "义理取向上，解是动而免险。危险解除后，不宜继续纠缠旧结，而应释放、复归、及时行动。",
+        "chengYiSummary": "处事取向上，解强调赦过宥罪。困局之后，既要清除根本危险，也要给人更新机会。",
+        "zhuXiSummary": "本义取向上，占得解，多主难局可解、纠纷可散。若无必要行动，宜来复；若有必要行动，则宜早。",
+        "xiangShuFocus": "震上坎下，险中有动，动而出险。综卦为蹇，蹇为难，解为难解，两卦连读最清楚。",
+        "practicalSynthesis": "现实中适合危机结束、纠纷和解、团队释压、流程优化。宜快速清障、重启秩序；忌旧账不放。",
+        "keyLineReminder": "上六“公用射隼于高墉之上，获之，无不利”关键：解除到最后，要精准清除高处根本危险。",
+        "studyQuestions": [
+          "现在真正需要解除的是什么？",
+          "我应当回来复位，还是及时行动？",
+          "哪些旧账可以赦过，哪些高处危险必须清除？"
+        ],
+        "sourceStatus": "原典已逐卦可追溯；王弼/程颐/朱熹层为 v1.2C 摘要级核引，后续可继续升级为逐句原文摘引。"
       }
     },
     {
@@ -4645,17 +4741,29 @@ const YIJING_DATA = {
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
       },
       "sourceTrace": {
-        "status": "pending_v1_2",
+        "status": "v1.2C complete for this hexagram",
         "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/损",
         "ctextBookOfChanges": "https://ctext.org/book-of-changes",
         "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
-        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "zhuXiWikisourceGeneral": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)",
         "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
-        "note": "v1.2A/B 已完成第1—32卦；本卦将在后续 v1.2C/D 批次中完成同等质量核引。"
+        "note": "本条为可追溯学习摘要：原典逐卦可由 coreTextSource 核查；经典注解层为基于公开古籍资源的原创归纳，非逐字长引。"
       },
       "classicalStudy": {
-        "completion": "pending_v1_2",
-        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
+        "completion": "complete_v1_2C",
+        "originalFocus": "《损》讲减损、节欲与损下益上。卦辞强调有孚、元吉、可贞，并说二簋可用享，说明诚意真实时形式可简。",
+        "wangBiSummary": "义理取向上，损不是单纯损失，而是按时减去多余，使盈虚合度。",
+        "chengYiSummary": "修身处事上，损首先落实在惩忿窒欲。真正该损的是愤怒、欲望与过度。",
+        "zhuXiSummary": "本义取向上，占得损，宜减损不必要之物，节用、节欲、去病根；但不可损正道与根本。",
+        "xiangShuFocus": "艮上兑下，山下有泽，泽被止而有所损。综卦为益，损与益互为循环，损己之私可益公之道。",
+        "practicalSynthesis": "现实中适合成本控制、个人修身、产品瘦身、关系取舍。宜减法管理、保留核心；忌错误减损。",
+        "keyLineReminder": "六五“或益之十朋之龟，弗克违，元吉”关键：真诚而正当的损，反会带来不可推辞的大益。",
+        "studyQuestions": [
+          "我现在真正该减去的是什么？",
+          "我是在损私欲，还是损根本？",
+          "减法之后会让什么真正增长？"
+        ],
+        "sourceStatus": "原典已逐卦可追溯；王弼/程颐/朱熹层为 v1.2C 摘要级核引，后续可继续升级为逐句原文摘引。"
       }
     },
     {
@@ -4747,17 +4855,29 @@ const YIJING_DATA = {
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
       },
       "sourceTrace": {
-        "status": "pending_v1_2",
+        "status": "v1.2C complete for this hexagram",
         "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/益",
         "ctextBookOfChanges": "https://ctext.org/book-of-changes",
         "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
-        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "zhuXiWikisourceGeneral": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)",
         "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
-        "note": "v1.2A/B 已完成第1—32卦；本卦将在后续 v1.2C/D 批次中完成同等质量核引。"
+        "note": "本条为可追溯学习摘要：原典逐卦可由 coreTextSource 核查；经典注解层为基于公开古籍资源的原创归纳，非逐字长引。"
       },
       "classicalStudy": {
-        "completion": "pending_v1_2",
-        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
+        "completion": "complete_v1_2C",
+        "originalFocus": "《益》讲增益、迁善与利下。卦辞“利有攸往，利涉大川”显示益之时适合行动与承担。",
+        "wangBiSummary": "义理取向上，益贵在损上益下。真正的增加不是上层自肥，而是让利益流向生长之处。",
+        "chengYiSummary": "修身处事上，益落实为见善则迁、有过则改。能快速迁善改过，就是最大的益。",
+        "zhuXiSummary": "本义取向上，占得益，多主增益、帮助、成长。宜行动，但要看所益是否正当、是否可持续。",
+        "xiangShuFocus": "巽上震下，风雷相益，动而入。综卦为损，损与益是同一循环：损不当则害，损其私则益其公。",
+        "practicalSynthesis": "现实中适合团队赋能、客户价值、学习成长、公益影响。宜把资源投向能生长的人与事；忌只求自己增加。",
+        "keyLineReminder": "九五“有孚惠心，勿问元吉”关键：有诚信与惠爱之心，不必多问，自然大吉。",
+        "studyQuestions": [
+          "这次增益到底益了谁？",
+          "我有没有见善即迁、有过即改？",
+          "资源是否流向真正能生长的地方？"
+        ],
+        "sourceStatus": "原典已逐卦可追溯；王弼/程颐/朱熹层为 v1.2C 摘要级核引，后续可继续升级为逐句原文摘引。"
       }
     },
     {
@@ -4849,17 +4969,29 @@ const YIJING_DATA = {
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
       },
       "sourceTrace": {
-        "status": "pending_v1_2",
+        "status": "v1.2C complete for this hexagram",
         "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/夬",
         "ctextBookOfChanges": "https://ctext.org/book-of-changes",
         "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
-        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "zhuXiWikisourceGeneral": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)",
         "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
-        "note": "v1.2A/B 已完成第1—32卦；本卦将在后续 v1.2C/D 批次中完成同等质量核引。"
+        "note": "本条为可追溯学习摘要：原典逐卦可由 coreTextSource 核查；经典注解层为基于公开古籍资源的原创归纳，非逐字长引。"
       },
       "classicalStudy": {
-        "completion": "pending_v1_2",
-        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
+        "completion": "complete_v1_2C",
+        "originalFocus": "《夬》讲决断、公开与去邪。卦辞“扬于王庭，孚号有厉”说明决断必须公开、诚信、知危。",
+        "wangBiSummary": "义理取向上，夬是刚决柔，但贵在决而和。若只崇尚武力冲突，则所尚乃穷。",
+        "chengYiSummary": "处事取向上，夬提醒人决断前要有正当程序。告自邑、不利即戎，说明先从内部说明，不可急于兵争。",
+        "zhuXiSummary": "本义取向上，占得夬，多主需要决断、清除、摊牌。宜公开正当，不宜私下暴烈。",
+        "xiangShuFocus": "兑上乾下，泽上于天，满而将决。综卦为姤，夬是决去阴柔之邪，姤是阴柔初遇刚阳。",
+        "practicalSynthesis": "现实中适合裁撤决策、制度清理、谈判摊牌、风险切割。宜明确底线、公开说明；忌情绪决裂。",
+        "keyLineReminder": "九五“苋陆夬夬，中行无咎”关键：决断要彻底，但必须行于中道。",
+        "studyQuestions": [
+          "我该决断的对象是什么？",
+          "这个决断是否公开、正当、有程序？",
+          "我是在刚决而和，还是情绪决裂？"
+        ],
+        "sourceStatus": "原典已逐卦可追溯；王弼/程颐/朱熹层为 v1.2C 摘要级核引，后续可继续升级为逐句原文摘引。"
       }
     },
     {
@@ -4951,17 +5083,29 @@ const YIJING_DATA = {
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
       },
       "sourceTrace": {
-        "status": "pending_v1_2",
+        "status": "v1.2C complete for this hexagram",
         "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/姤",
         "ctextBookOfChanges": "https://ctext.org/book-of-changes",
         "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
-        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "zhuXiWikisourceGeneral": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)",
         "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
-        "note": "v1.2A/B 已完成第1—32卦；本卦将在后续 v1.2C/D 批次中完成同等质量核引。"
+        "note": "本条为可追溯学习摘要：原典逐卦可由 coreTextSource 核查；经典注解层为基于公开古籍资源的原创归纳，非逐字长引。"
       },
       "classicalStudy": {
-        "completion": "pending_v1_2",
-        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
+        "completion": "complete_v1_2C",
+        "originalFocus": "《姤》讲相遇、突来与强诱。卦辞“女壮，勿用取女”提示遇到强烈而不易长久的力量，不宜轻纳为长期核心。",
+        "wangBiSummary": "义理取向上，姤是一阴初遇五阳，虽小而势将长。关键在初遇时设防，不使其侵入根本。",
+        "chengYiSummary": "处事取向上，姤提醒人慎初。初六系于金柅，正是用强制边界约束初来的不正之势。",
+        "zhuXiSummary": "本义取向上，占得姤，多主偶遇、诱惑、突发机会或关系。宜审其可久性，不宜轻许长期承诺。",
+        "xiangShuFocus": "乾上巽下，天下有风，风行而相遇。综卦为夬，姤之初若不慎，终须以夬决之。",
+        "practicalSynthesis": "现实中适合短期机会、偶然合作、感情诱惑、市场热点。宜先设边界、观察能否长久；忌被新鲜感带走。",
+        "keyLineReminder": "初六“系于金柅，贞吉；有攸往，见凶”关键：诱因初来时能系住，才吉。",
+        "studyQuestions": [
+          "这个突然出现的人或机会，能久吗？",
+          "我是否已经设置足够边界？",
+          "若现在不慎，未来是否要用夬来切割？"
+        ],
+        "sourceStatus": "原典已逐卦可追溯；王弼/程颐/朱熹层为 v1.2C 摘要级核引，后续可继续升级为逐句原文摘引。"
       }
     },
     {
@@ -5053,17 +5197,29 @@ const YIJING_DATA = {
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
       },
       "sourceTrace": {
-        "status": "pending_v1_2",
+        "status": "v1.2C complete for this hexagram",
         "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/萃",
         "ctextBookOfChanges": "https://ctext.org/book-of-changes",
         "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
-        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "zhuXiWikisourceGeneral": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)",
         "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
-        "note": "v1.2A/B 已完成第1—32卦；本卦将在后续 v1.2C/D 批次中完成同等质量核引。"
+        "note": "本条为可追溯学习摘要：原典逐卦可由 coreTextSource 核查；经典注解层为基于公开古籍资源的原创归纳，非逐字长引。"
       },
       "classicalStudy": {
-        "completion": "pending_v1_2",
-        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
+        "completion": "complete_v1_2C",
+        "originalFocus": "《萃》讲聚合、宗庙与共同中心。卦辞“王假有庙，利见大人”说明聚众必须有精神中心与正当领导。",
+        "wangBiSummary": "义理取向上，萃是众聚而需正。聚本身不一定吉，正聚、礼聚、有中心地聚才亨。",
+        "chengYiSummary": "处事取向上，萃提醒君子除戎器、戒不虞。人群聚集越大，越需要秩序与风险预备。",
+        "zhuXiSummary": "本义取向上，占得萃，多主聚会、团队、资源集中。宜见大人、立中心、讲礼制。",
+        "xiangShuFocus": "兑上坤下，泽上于地，水聚于地。综卦为升，先聚众与资源，后可顺势上升。",
+        "practicalSynthesis": "现实中适合团队大会、融资合作、社群运营、组织整合。宜明确中心、建立仪式感；忌人多混乱。",
+        "keyLineReminder": "九五“萃有位，无咎；匪孚，元永贞，悔亡”关键：有位还不够，必须长期守正以得信。",
+        "studyQuestions": [
+          "这次聚合的共同中心是什么？",
+          "是否有足够正当的领导或机制？",
+          "人聚之后，风险预案在哪里？"
+        ],
+        "sourceStatus": "原典已逐卦可追溯；王弼/程颐/朱熹层为 v1.2C 摘要级核引，后续可继续升级为逐句原文摘引。"
       }
     },
     {
@@ -5155,17 +5311,29 @@ const YIJING_DATA = {
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
       },
       "sourceTrace": {
-        "status": "pending_v1_2",
+        "status": "v1.2C complete for this hexagram",
         "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/升",
         "ctextBookOfChanges": "https://ctext.org/book-of-changes",
         "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
-        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "zhuXiWikisourceGeneral": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)",
         "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
-        "note": "v1.2A/B 已完成第1—32卦；本卦将在后续 v1.2C/D 批次中完成同等质量核引。"
+        "note": "本条为可追溯学习摘要：原典逐卦可由 coreTextSource 核查；经典注解层为基于公开古籍资源的原创归纳，非逐字长引。"
       },
       "classicalStudy": {
-        "completion": "pending_v1_2",
-        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
+        "completion": "complete_v1_2C",
+        "originalFocus": "《升》讲上升、成长与积小成大。卦辞“元亨，用见大人，勿恤，南征吉”显示柔顺按时上升，可得大亨。",
+        "wangBiSummary": "义理取向上，升是柔以时升。上升不是跳跃，而是顺德、得时、得应。",
+        "chengYiSummary": "修身处事上，升强调君子顺德，积小以高大。真正的上升来自小善、小功、小步骤长期积累。",
+        "zhuXiSummary": "本义取向上，占得升，多主进展、晋升、成长。宜见大人、顺势上行，不必忧惧。",
+        "xiangShuFocus": "坤上巽下，地中生木，木渐升。综卦为萃，聚合资源之后，才有上升之势。",
+        "practicalSynthesis": "现实中适合职业晋升、学习进阶、市场拓展、品牌成长。宜一步一阶、稳步提升；忌急升失基。",
+        "keyLineReminder": "六五“贞吉，升阶”关键：真正可靠的上升，是像登阶一样一步一步。",
+        "studyQuestions": [
+          "我的上升是否有积累支撑？",
+          "谁是我应该见的大人？",
+          "下一阶具体是什么，而不是空泛地想变高？"
+        ],
+        "sourceStatus": "原典已逐卦可追溯；王弼/程颐/朱熹层为 v1.2C 摘要级核引，后续可继续升级为逐句原文摘引。"
       }
     },
     {
@@ -5257,17 +5425,29 @@ const YIJING_DATA = {
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
       },
       "sourceTrace": {
-        "status": "pending_v1_2",
+        "status": "v1.2C complete for this hexagram",
         "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/困",
         "ctextBookOfChanges": "https://ctext.org/book-of-changes",
         "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
-        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "zhuXiWikisourceGeneral": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)",
         "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
-        "note": "v1.2A/B 已完成第1—32卦；本卦将在后续 v1.2C/D 批次中完成同等质量核引。"
+        "note": "本条为可追溯学习摘要：原典逐卦可由 coreTextSource 核查；经典注解层为基于公开古籍资源的原创归纳，非逐字长引。"
       },
       "classicalStudy": {
-        "completion": "pending_v1_2",
-        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
+        "completion": "complete_v1_2C",
+        "originalFocus": "《困》讲困厄、受掩与守志。卦辞“亨，贞，大人吉，无咎，有言不信”说明困中仍有亨，但不能靠口舌脱困。",
+        "wangBiSummary": "义理取向上，困是刚被掩蔽。君子困而不失其所亨，靠的是内在志向与中正，而不是外在顺利。",
+        "chengYiSummary": "修身处事上，困提醒人致命遂志。真正的困境检验志向，也暴露人是否只是尚口。",
+        "zhuXiSummary": "本义取向上，占得困，多主受困、资源缺、言不见信。宜守正、少言、保存志向。",
+        "xiangShuFocus": "兑上坎下，泽无水，象资源枯竭。综卦为井，困是水竭，井是修复供养之源。",
+        "practicalSynthesis": "现实中适合资金困难、事业低谷、被误解、资源匮乏。宜减少解释、把有限资源用在关键处；忌怨言过多。",
+        "keyLineReminder": "九二“困于酒食，朱绂方来，利用亨祀；征凶”关键：外有供养也可能内困，此时宜守礼不宜强征。",
+        "studyQuestions": [
+          "我现在被困的是资源、信誉，还是心志？",
+          "我是否用太多语言替代行动？",
+          "困中仍可守住什么志向？"
+        ],
+        "sourceStatus": "原典已逐卦可追溯；王弼/程颐/朱熹层为 v1.2C 摘要级核引，后续可继续升级为逐句原文摘引。"
       }
     },
     {
@@ -5359,17 +5539,29 @@ const YIJING_DATA = {
         "qualityTag": "v1.1B 经典注解合参摘要：为学习用途的原创归纳，不是王弼、程颐、朱熹原文逐字引文；后续可继续升级为逐卦逐条核引版。"
       },
       "sourceTrace": {
-        "status": "pending_v1_2",
+        "status": "v1.2C complete for this hexagram",
         "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/井",
         "ctextBookOfChanges": "https://ctext.org/book-of-changes",
         "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
-        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "zhuXiWikisourceGeneral": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)",
         "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
-        "note": "v1.2A/B 已完成第1—32卦；本卦将在后续 v1.2C/D 批次中完成同等质量核引。"
+        "note": "本条为可追溯学习摘要：原典逐卦可由 coreTextSource 核查；经典注解层为基于公开古籍资源的原创归纳，非逐字长引。"
       },
       "classicalStudy": {
-        "completion": "pending_v1_2",
-        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
+        "completion": "complete_v1_2C",
+        "originalFocus": "《井》讲公共供养、制度与根本资源。卦辞“改邑不改井”说明外部形式可变，根本供养系统不可轻废。",
+        "wangBiSummary": "义理取向上，井养而不穷。井的价值不在占有，而在持续供养往来之人。",
+        "chengYiSummary": "处事取向上，井提醒人修井、洁井、用井。井渫不食为可惜，说明有价值的资源若无人使用，也未成其功。",
+        "zhuXiSummary": "本义取向上，占得井，多主制度、资源、基础设施、供养关系。宜修复渠道，使资源真正可用。",
+        "xiangShuFocus": "坎上巽下，木入水而上水，汲井之象。综卦为困，困因水竭，井则恢复供养。",
+        "practicalSynthesis": "现实中适合知识库建设、客户服务、基础设施、组织制度。宜维护底层系统，让资源长期可用；忌只改表面。",
+        "keyLineReminder": "九三“井渫不食，为我心恻；可用汲，王明，并受其福”关键：好资源要被明者发现并使用。",
+        "studyQuestions": [
+          "我真正的井是什么？",
+          "资源是坏了、漏了，还是没人知道可用？",
+          "怎样把个人资源变成公共供养系统？"
+        ],
+        "sourceStatus": "原典已逐卦可追溯；王弼/程颐/朱熹层为 v1.2C 摘要级核引，后续可继续升级为逐句原文摘引。"
       }
     },
     {
@@ -5465,13 +5657,13 @@ const YIJING_DATA = {
         "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/革",
         "ctextBookOfChanges": "https://ctext.org/book-of-changes",
         "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
-        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "zhuXiWikisourceGeneral": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)",
         "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
-        "note": "v1.2A/B 已完成第1—32卦；本卦将在后续 v1.2C/D 批次中完成同等质量核引。"
+        "note": "v1.2A/B/C 已完成第1—48卦；本卦将在 v1.2D 批次中完成同等质量核引。"
       },
       "classicalStudy": {
         "completion": "pending_v1_2",
-        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
+        "sourceStatus": "待 v1.2D 完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -5567,13 +5759,13 @@ const YIJING_DATA = {
         "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/鼎",
         "ctextBookOfChanges": "https://ctext.org/book-of-changes",
         "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
-        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "zhuXiWikisourceGeneral": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)",
         "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
-        "note": "v1.2A/B 已完成第1—32卦；本卦将在后续 v1.2C/D 批次中完成同等质量核引。"
+        "note": "v1.2A/B/C 已完成第1—48卦；本卦将在 v1.2D 批次中完成同等质量核引。"
       },
       "classicalStudy": {
         "completion": "pending_v1_2",
-        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
+        "sourceStatus": "待 v1.2D 完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -5669,13 +5861,13 @@ const YIJING_DATA = {
         "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/震",
         "ctextBookOfChanges": "https://ctext.org/book-of-changes",
         "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
-        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "zhuXiWikisourceGeneral": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)",
         "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
-        "note": "v1.2A/B 已完成第1—32卦；本卦将在后续 v1.2C/D 批次中完成同等质量核引。"
+        "note": "v1.2A/B/C 已完成第1—48卦；本卦将在 v1.2D 批次中完成同等质量核引。"
       },
       "classicalStudy": {
         "completion": "pending_v1_2",
-        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
+        "sourceStatus": "待 v1.2D 完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -5771,13 +5963,13 @@ const YIJING_DATA = {
         "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/艮",
         "ctextBookOfChanges": "https://ctext.org/book-of-changes",
         "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
-        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "zhuXiWikisourceGeneral": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)",
         "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
-        "note": "v1.2A/B 已完成第1—32卦；本卦将在后续 v1.2C/D 批次中完成同等质量核引。"
+        "note": "v1.2A/B/C 已完成第1—48卦；本卦将在 v1.2D 批次中完成同等质量核引。"
       },
       "classicalStudy": {
         "completion": "pending_v1_2",
-        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
+        "sourceStatus": "待 v1.2D 完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -5873,13 +6065,13 @@ const YIJING_DATA = {
         "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/渐",
         "ctextBookOfChanges": "https://ctext.org/book-of-changes",
         "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
-        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "zhuXiWikisourceGeneral": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)",
         "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
-        "note": "v1.2A/B 已完成第1—32卦；本卦将在后续 v1.2C/D 批次中完成同等质量核引。"
+        "note": "v1.2A/B/C 已完成第1—48卦；本卦将在 v1.2D 批次中完成同等质量核引。"
       },
       "classicalStudy": {
         "completion": "pending_v1_2",
-        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
+        "sourceStatus": "待 v1.2D 完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -5975,13 +6167,13 @@ const YIJING_DATA = {
         "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/归妹",
         "ctextBookOfChanges": "https://ctext.org/book-of-changes",
         "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
-        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "zhuXiWikisourceGeneral": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)",
         "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
-        "note": "v1.2A/B 已完成第1—32卦；本卦将在后续 v1.2C/D 批次中完成同等质量核引。"
+        "note": "v1.2A/B/C 已完成第1—48卦；本卦将在 v1.2D 批次中完成同等质量核引。"
       },
       "classicalStudy": {
         "completion": "pending_v1_2",
-        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
+        "sourceStatus": "待 v1.2D 完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -6077,13 +6269,13 @@ const YIJING_DATA = {
         "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/丰",
         "ctextBookOfChanges": "https://ctext.org/book-of-changes",
         "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
-        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "zhuXiWikisourceGeneral": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)",
         "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
-        "note": "v1.2A/B 已完成第1—32卦；本卦将在后续 v1.2C/D 批次中完成同等质量核引。"
+        "note": "v1.2A/B/C 已完成第1—48卦；本卦将在 v1.2D 批次中完成同等质量核引。"
       },
       "classicalStudy": {
         "completion": "pending_v1_2",
-        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
+        "sourceStatus": "待 v1.2D 完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -6179,13 +6371,13 @@ const YIJING_DATA = {
         "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/旅",
         "ctextBookOfChanges": "https://ctext.org/book-of-changes",
         "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
-        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "zhuXiWikisourceGeneral": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)",
         "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
-        "note": "v1.2A/B 已完成第1—32卦；本卦将在后续 v1.2C/D 批次中完成同等质量核引。"
+        "note": "v1.2A/B/C 已完成第1—48卦；本卦将在 v1.2D 批次中完成同等质量核引。"
       },
       "classicalStudy": {
         "completion": "pending_v1_2",
-        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
+        "sourceStatus": "待 v1.2D 完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -6281,13 +6473,13 @@ const YIJING_DATA = {
         "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/巽",
         "ctextBookOfChanges": "https://ctext.org/book-of-changes",
         "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
-        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "zhuXiWikisourceGeneral": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)",
         "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
-        "note": "v1.2A/B 已完成第1—32卦；本卦将在后续 v1.2C/D 批次中完成同等质量核引。"
+        "note": "v1.2A/B/C 已完成第1—48卦；本卦将在 v1.2D 批次中完成同等质量核引。"
       },
       "classicalStudy": {
         "completion": "pending_v1_2",
-        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
+        "sourceStatus": "待 v1.2D 完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -6383,13 +6575,13 @@ const YIJING_DATA = {
         "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/兑",
         "ctextBookOfChanges": "https://ctext.org/book-of-changes",
         "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
-        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "zhuXiWikisourceGeneral": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)",
         "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
-        "note": "v1.2A/B 已完成第1—32卦；本卦将在后续 v1.2C/D 批次中完成同等质量核引。"
+        "note": "v1.2A/B/C 已完成第1—48卦；本卦将在 v1.2D 批次中完成同等质量核引。"
       },
       "classicalStudy": {
         "completion": "pending_v1_2",
-        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
+        "sourceStatus": "待 v1.2D 完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -6485,13 +6677,13 @@ const YIJING_DATA = {
         "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/涣",
         "ctextBookOfChanges": "https://ctext.org/book-of-changes",
         "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
-        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "zhuXiWikisourceGeneral": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)",
         "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
-        "note": "v1.2A/B 已完成第1—32卦；本卦将在后续 v1.2C/D 批次中完成同等质量核引。"
+        "note": "v1.2A/B/C 已完成第1—48卦；本卦将在 v1.2D 批次中完成同等质量核引。"
       },
       "classicalStudy": {
         "completion": "pending_v1_2",
-        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
+        "sourceStatus": "待 v1.2D 完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -6587,13 +6779,13 @@ const YIJING_DATA = {
         "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/节",
         "ctextBookOfChanges": "https://ctext.org/book-of-changes",
         "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
-        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "zhuXiWikisourceGeneral": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)",
         "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
-        "note": "v1.2A/B 已完成第1—32卦；本卦将在后续 v1.2C/D 批次中完成同等质量核引。"
+        "note": "v1.2A/B/C 已完成第1—48卦；本卦将在 v1.2D 批次中完成同等质量核引。"
       },
       "classicalStudy": {
         "completion": "pending_v1_2",
-        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
+        "sourceStatus": "待 v1.2D 完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -6689,13 +6881,13 @@ const YIJING_DATA = {
         "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/中孚",
         "ctextBookOfChanges": "https://ctext.org/book-of-changes",
         "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
-        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "zhuXiWikisourceGeneral": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)",
         "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
-        "note": "v1.2A/B 已完成第1—32卦；本卦将在后续 v1.2C/D 批次中完成同等质量核引。"
+        "note": "v1.2A/B/C 已完成第1—48卦；本卦将在 v1.2D 批次中完成同等质量核引。"
       },
       "classicalStudy": {
         "completion": "pending_v1_2",
-        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
+        "sourceStatus": "待 v1.2D 完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -6791,13 +6983,13 @@ const YIJING_DATA = {
         "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/小过",
         "ctextBookOfChanges": "https://ctext.org/book-of-changes",
         "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
-        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "zhuXiWikisourceGeneral": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)",
         "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
-        "note": "v1.2A/B 已完成第1—32卦；本卦将在后续 v1.2C/D 批次中完成同等质量核引。"
+        "note": "v1.2A/B/C 已完成第1—48卦；本卦将在 v1.2D 批次中完成同等质量核引。"
       },
       "classicalStudy": {
         "completion": "pending_v1_2",
-        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
+        "sourceStatus": "待 v1.2D 完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -6893,13 +7085,13 @@ const YIJING_DATA = {
         "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/既济",
         "ctextBookOfChanges": "https://ctext.org/book-of-changes",
         "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
-        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "zhuXiWikisourceGeneral": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)",
         "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
-        "note": "v1.2A/B 已完成第1—32卦；本卦将在后续 v1.2C/D 批次中完成同等质量核引。"
+        "note": "v1.2A/B/C 已完成第1—48卦；本卦将在 v1.2D 批次中完成同等质量核引。"
       },
       "classicalStudy": {
         "completion": "pending_v1_2",
-        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
+        "sourceStatus": "待 v1.2D 完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     },
     {
@@ -6995,16 +7187,16 @@ const YIJING_DATA = {
         "coreTextSource": "https://zh.wikisource.org/zh-hans/周易/未济",
         "ctextBookOfChanges": "https://ctext.org/book-of-changes",
         "ctextResourceNote": "Chinese Text Project《周易》页列出《周易正义》《四部丛刊初编》本《周易》、朱熹《原本周易本义》等相关资源。",
-        "zhuXiWikisourceVol1": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)/卷01",
+        "zhuXiWikisourceGeneral": "https://zh.wikisource.org/zh-hans/原本周易本義_(四庫全書本)",
         "wangBiWikisourceAuthor": "https://zh.wikisource.org/wiki/Author:王弼",
-        "note": "v1.2A/B 已完成第1—32卦；本卦将在后续 v1.2C/D 批次中完成同等质量核引。"
+        "note": "v1.2A/B/C 已完成第1—48卦；本卦将在 v1.2D 批次中完成同等质量核引。"
       },
       "classicalStudy": {
         "completion": "pending_v1_2",
-        "sourceStatus": "待 v1.2 后续批次完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
+        "sourceStatus": "待 v1.2D 完成逐卦核引摘要；当前仍可使用 v1.1B 经典合参层。"
       }
     }
   ],
-  "version": "1.2B",
-  "dataStatus": "v1.2B：已完成第1—32卦经典核引学习层；第33—64卦保留v1.1B合参层并等待v1.2C/D逐批完成。"
+  "version": "1.2C",
+  "dataStatus": "v1.2C：已完成第1—48卦经典核引学习层；第49—64卦保留v1.1B合参层并等待v1.2D完成。"
 };

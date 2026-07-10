@@ -1,7 +1,7 @@
 {
-  "name": "我的易经｜学习与数字卦 v1.2B",
+  "name": "我的易经｜学习与数字卦 v1.2C",
   "short_name": "我的易经",
-  "description": "易经64卦知识库、数字卦、现实应用与第1—32卦经典核引学习层",
+  "description": "易经64卦知识库、数字卦、现实应用与第1—48卦经典核引学习层",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#f7f1e6",
