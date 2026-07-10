@@ -1,4 +1,4 @@
-const CACHE_NAME = 'my-yijing-learning-v1-0';
+const CACHE_NAME = 'my-yijing-learning-v1-1A';
 const APP = [
   './',
   './index.html',

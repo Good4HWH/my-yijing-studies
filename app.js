@@ -23,7 +23,7 @@ function show(id) {
   $$(".view").forEach((v) => v.classList.remove("active"));
   $("#" + id).classList.add("active");
   $$(".tabs button").forEach((b) => b.classList.toggle("active", b.dataset.tab === id));
-  window.scrollTo({ top: 0, behavior: "instant" });
+  window.scrollTo(0, 0);
 }
 
 function isReady(h) {
@@ -53,6 +53,62 @@ function changedHex(h, line) {
 
 function lineLabel(i) {
   return ["初爻", "二爻", "三爻", "四爻", "五爻", "上爻"][i - 1] || `${i}爻`;
+}
+
+function hexByLines(lines) {
+  const key = lines.join("");
+  return hexes.find((h) => h.lines.join("") === key);
+}
+
+function relatedHexes(h) {
+  const inverse = hexByLines(h.lines.map((x) => x ? 0 : 1));
+  const reverse = hexByLines([...h.lines].reverse());
+  const mutualLines = [h.lines[1], h.lines[2], h.lines[3], h.lines[2], h.lines[3], h.lines[4]];
+  const mutual = hexByLines(mutualLines);
+  return { mutual, inverse, reverse };
+}
+
+function relationCards(h, compact = false) {
+  const { mutual, inverse, reverse } = relatedHexes(h);
+  const items = [
+    { title: "本卦", label: "当前局势", hex: h },
+    { title: "互卦", label: "内在结构 / 隐含动力", hex: mutual },
+    { title: "错卦", label: "反面镜像 / 对立提醒", hex: inverse },
+    { title: "综卦", label: "换位观察 / 反向视角", hex: reverse }
+  ].filter((x) => x.hex);
+  return `<div class="${compact ? "relation-grid compact" : "relation-grid"}">${items.map((it) => `
+    <button class="relation-card" onclick="openHex(${it.hex.number})" type="button">
+      <div class="rel-symbol">${it.hex.symbol}</div>
+      <strong>${it.title}：${it.hex.name}</strong>
+      <span>${it.label}</span>
+    </button>
+  `).join("")}</div>`;
+}
+
+function studySummary(h) {
+  const s = h.study || {};
+  return `<div class="study-summary">
+    <h3>${esc(s.keyNote || "卦意摘要")}</h3>
+    <p>${esc(s.oneLineMeaning || h.plain || "")}</p>
+    <div class="keyword-row">${(s.keywords || []).map((k) => `<span class="keyword">${esc(k)}</span>`).join("")}</div>
+    <p class="muted"><strong>适用场景：</strong>${(s.situations || []).map(esc).join("、")}</p>
+    <p><strong>行动建议：</strong>${esc(s.actionAdvice || "")}</p>
+    <p><strong>风险提醒：</strong>${esc(s.riskWarning || "")}</p>
+  </div>`;
+}
+
+function applicationBlock(h) {
+  const a = h.study?.applications || {};
+  const rows = [
+    ["事业 / 工作", a.career],
+    ["经商 / 财务", a.business],
+    ["合作 / 人际", a.relationship],
+    ["决策 / 风险", a.decision],
+    ["修身 / 心态", a.self]
+  ];
+  return `<div class="application-list">${rows.map(([k, v]) => `
+    <div class="app-row"><strong>${k}</strong><p>${esc(v || "")}</p></div>
+  `).join("")}</div>`;
 }
 
 function getRecords() {
@@ -96,7 +152,16 @@ function searchableText(h) {
   return [
     h.number, h.name, h.symbol, h.upper, h.lower, h.guaMeaning,
     h.guaci, h.guaciPlain, h.tuan, h.tuanPlain, h.xiang, h.xiangPlain,
-    h.plain, ...(h.yao || []), ...(h.yaoPlain || [])
+    h.plain,
+    h.study?.keyNote,
+    h.study?.oneLineMeaning,
+    ...(h.study?.keywords || []),
+    ...(h.study?.situations || []),
+    h.study?.actionAdvice,
+    h.study?.riskWarning,
+    ...(Object.values(h.study?.applications || {})),
+    ...(h.yao || []),
+    ...(h.yaoPlain || [])
   ].join(" ");
 }
 
@@ -137,7 +202,9 @@ function renderLibrary() {
             <span class="pill">${h.lowerSymbol}${h.lower}下</span>
             <span class="pill ready">${isReady(h) ? "完整" : "待校"}</span>
           </div>
-          <p class="hex-summary">${esc(h.plain || h.guaciPlain || "")}</p>
+          <p class="key-note">${esc(h.study?.keyNote || "")}</p>
+          <p class="hex-summary">${esc(h.study?.oneLineMeaning || h.plain || h.guaciPlain || "")}</p>
+          <div class="mini-keywords">${(h.study?.keywords || []).slice(0, 4).map((k) => `<span>${esc(k)}</span>`).join("")}</div>
         </div>
       </div>
     </button>
@@ -210,6 +277,19 @@ function openHex(n, keepView = false) {
         <button class="secondary" onclick="copyHex(${h.number})" type="button">复制卦文</button>
         ${h.sourceUrl ? `<a class="source-link button-link" href="${h.sourceUrl}" target="_blank" rel="noopener">公开原文来源 ↗</a>` : ""}
       </div>
+    </div>
+
+    <div class="card">${studySummary(h)}</div>
+
+    <div class="card">
+      <h3>卦象关系</h3>
+      <p class="muted">本卦看当前局势，互卦看内在动力，错卦看反面提醒，综卦看换位视角。</p>
+      ${relationCards(h)}
+    </div>
+
+    <div class="card">
+      <h3>现实应用</h3>
+      ${applicationBlock(h)}
     </div>
 
     <div class="card">
@@ -304,6 +384,12 @@ ${ch.guaci}
 学习式提示：
 ${interpret(r, h, ch)}
 
+现实应用：
+当前局势：${h.study?.oneLineMeaning || ""}
+风险提醒：${h.study?.riskWarning || ""}
+行动建议：${h.study?.actionAdvice || ""}
+后续方向：${ch.study?.oneLineMeaning || ""}
+
 复盘备注：
 ${r.reflection || ""}`;
 }
@@ -318,7 +404,7 @@ function interpret(r, h, ch) {
     "已接近极点，重点是收束、防过度，并准备转化。"
   ][r.line - 1];
 
-  return `${h.plain || h.guaciPlain || ""} 本次动爻在${lineLabel(r.line)}，提示：${lineHint} 变卦为「${ch.name}」，可作为后续变化方向观察。建议从“时机、位置、进退、风险、应对”五个角度复盘。`;
+  return `${h.study?.keyNote || h.name}：${h.study?.oneLineMeaning || h.plain || h.guaciPlain || ""} 本次动爻在${lineLabel(r.line)}，提示：${lineHint} 变卦为「${ch.name}」，其方向可理解为：${ch.study?.oneLineMeaning || ch.plain || ""} 建议从“时机、位置、进退、风险、应对”五个角度复盘。`;
 }
 
 function renderResult(r) {
@@ -374,6 +460,23 @@ function renderResult(r) {
       </div>
 
       <div class="section">
+        <h3>现实应用解读</h3>
+        <div class="application-list">
+          <div class="app-row"><strong>当前局势</strong><p>${esc(h.study?.oneLineMeaning || "")}</p></div>
+          <div class="app-row"><strong>关键变化点</strong><p>${esc((h.yaoPlain || [])[line - 1] || h.yao[line - 1] || "")}</p></div>
+          <div class="app-row"><strong>风险提醒</strong><p>${esc(h.study?.riskWarning || "")}</p></div>
+          <div class="app-row"><strong>行动建议</strong><p>${esc(h.study?.actionAdvice || "")}</p></div>
+          <div class="app-row"><strong>后续方向</strong><p>${esc(ch.study?.oneLineMeaning || ch.plain || "")}</p></div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h3>辅助观察：互卦 / 错卦 / 综卦</h3>
+        <p class="muted">这不是额外占断，而是帮助你从内在结构、反面风险、换位视角学习本卦。</p>
+        ${relationCards(h, true)}
+      </div>
+
+      <div class="section">
         <h3>复盘问题</h3>
         <ul class="clean-list">
           <li>这件事现在处于开始、发展、压力、转折、成熟还是收束阶段？</li>
@@ -423,7 +526,7 @@ function calculateDivination() {
     upper, lower, line,
     hex: h.number,
     changed: ch.number,
-    appVersion: "1.0"
+    appVersion: "1.1A"
   };
 
   renderResult(lastResult);
@@ -514,7 +617,7 @@ function delRecord(id) {
 function exportBackup() {
   const payload = {
     app: "我的易经｜学习与数字卦",
-    version: "1.0",
+    version: "1.1A",
     exportedAt: new Date().toISOString(),
     records: getRecords(),
     favorites: getFavorites(),
