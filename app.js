@@ -8,6 +8,8 @@ const order = YIJING_DATA.trigramOrder;
 
 let lastResult = null;
 let currentDetailHex = null;
+let detailReturnView = "library";
+let detailReturnLabel = "返回64卦";
 
 function esc(s) {
   return String(s ?? "").replace(/[&<>"']/g, (m) => ({
@@ -24,6 +26,29 @@ function show(id) {
   $("#" + id).classList.add("active");
   $$(".tabs button").forEach((b) => b.classList.toggle("active", b.dataset.tab === id));
   window.scrollTo(0, 0);
+}
+
+function activeViewId() {
+  return $(".view.active")?.id || "home";
+}
+
+function returnLabelForView(view) {
+  return {
+    home: "返回首页",
+    library: "返回64卦",
+    divine: "返回本次数字卦结果",
+    records: "返回卜卦记录",
+    sources: "返回信息"
+  }[view] || "返回上一页";
+}
+
+function updateDetailBackButton() {
+  const btn = $("#detailBackBtn");
+  if (btn) btn.textContent = `← ${detailReturnLabel}`;
+}
+
+function goBackFromDetail() {
+  show(detailReturnView || "library");
 }
 
 function isReady(h) {
@@ -169,7 +194,7 @@ function sourceTraceBlock(h) {
     <p><strong>核引状态：</strong>${esc(t.status || "")}</p>
     ${t.coreTextSource ? `<p><a class="source-link" href="${esc(t.coreTextSource)}" target="_blank" rel="noopener">本卦原典来源 ↗</a></p>` : ""}
     ${t.ctextBookOfChanges ? `<p><a class="source-link" href="${esc(t.ctextBookOfChanges)}" target="_blank" rel="noopener">Chinese Text Project《周易》资源 ↗</a></p>` : ""}
-    ${t.zhuXiWikisourceVol1 ? `<p><a class="source-link" href="${esc(t.zhuXiWikisourceVol1)}" target="_blank" rel="noopener">朱熹《原本周易本义》卷一 ↗</a></p>` : ""}
+    ${(t.zhuXiWikisourceGeneral || t.zhuXiWikisourceVol1) ? `<p><a class="source-link" href="${esc(t.zhuXiWikisourceGeneral || t.zhuXiWikisourceVol1)}" target="_blank" rel="noopener">朱熹《原本周易本义》资源 ↗</a></p>` : ""}
     <p class="muted">${esc(t.note || "")}</p>
   </div>`;
 }
@@ -252,7 +277,6 @@ function renderLibrary() {
     const qOk = !q || searchableText(h).includes(q);
     const fOk =
       f === "all" ||
-      (f === "ready" && isReady(h)) ||
       (f === "favorite" && isFavorite(h.number));
     return qOk && fOk;
   });
@@ -260,13 +284,12 @@ function renderLibrary() {
   $("#hexList").innerHTML = list.map((h) => `
     <button class="hex-card" onclick="openHex(${h.number})" type="button">
       <div class="hex-top">
-        <div class="hex-symbol">${h.symbol}</div>
-        <div>
+        <div class="hex-symbol" aria-hidden="true">${h.symbol}</div>
+        <div class="hex-card-content">
           <div class="hex-name">${isFavorite(h.number) ? "★ " : ""}第${h.number}卦 ${h.name}</div>
           <div>
             <span class="pill">${h.upperSymbol}${h.upper}上</span>
             <span class="pill">${h.lowerSymbol}${h.lower}下</span>
-            <span class="pill ready">${isReady(h) ? "完整" : "待校"}</span>
           </div>
           <p class="key-note">${esc(h.study?.keyNote || "")}</p>
           <p class="hex-summary">${esc(h.study?.oneLineMeaning || h.plain || h.guaciPlain || "")}</p>
@@ -330,14 +353,24 @@ async function shareOrCopy(text, title = "我的易经") {
 
 function openHex(n, keepView = false) {
   const h = byNum[n];
+  if (!h) return;
+
+  if (!keepView) {
+    const origin = activeViewId();
+    if (origin !== "detail") {
+      detailReturnView = origin;
+      detailReturnLabel = returnLabelForView(origin);
+    }
+  }
+
   currentDetailHex = n;
+  updateDetailBackButton();
 
   $("#detailBox").innerHTML = `
     <div class="card detail-head">
       <div class="symbol">${h.symbol}</div>
       <h2>第${h.number}卦 ${h.name}</h2>
       <p>${h.upperSymbol}${h.upper}上 · ${h.lowerSymbol}${h.lower}下 · ${h.guaMeaning || ""}</p>
-      <p><span class="pill ready">${h.quality || "完整录入"}</span></p>
       <div class="actions center">
         <button class="secondary" onclick="toggleFavorite(${h.number})" type="button">${isFavorite(h.number) ? "★ 已收藏" : "☆ 收藏本卦"}</button>
         <button class="secondary" onclick="copyHex(${h.number})" type="button">复制卦文</button>
@@ -359,8 +392,8 @@ function openHex(n, keepView = false) {
     </div>
 
     <div class="card">
-      <h3>v1.2 经典核引学习层</h3>
-      <p class="muted">第1—16卦已完成高质量核引摘要；其余卦会在后续批次继续完成。此层强调来源状态、原典重点、经典义理与现实复盘。</p>
+      <h3>经典核引学习</h3>
+      <p class="muted">64卦均已完成经典核引摘要。此层强调来源状态、原典重点、经典义理、现实合参与复盘。</p>
       ${classicalStudyBlock(h)}
       <div class="section">
         <h3>来源追踪</h3>
@@ -369,7 +402,7 @@ function openHex(n, keepView = false) {
     </div>
 
     <div class="card">
-      <h3>v1.1B 经典注解合参</h3>
+      <h3>经典注解合参</h3>
       <p class="muted">这是学习型摘要，不是逐字引文。用于帮助你从义理、修身、本义、象数与现实应用五个角度理解本卦。</p>
       ${commentaryBlock(h)}
     </div>
@@ -638,7 +671,7 @@ function calculateDivination() {
     upper, lower, line,
     hex: h.number,
     changed: ch.number,
-    appVersion: "1.2 Final"
+    appVersion: "1.3A"
   };
 
   renderResult(lastResult);
@@ -729,7 +762,7 @@ function delRecord(id) {
 function exportBackup() {
   const payload = {
     app: "我的易经｜学习与数字卦",
-    version: "1.2 Final",
+    version: "1.3A",
     exportedAt: new Date().toISOString(),
     records: getRecords(),
     favorites: getFavorites(),
@@ -772,6 +805,7 @@ function setupEvents() {
 
   $("#installBtn").addEventListener("click", () => $("#installDialog").showModal());
   $("#closeInstall").addEventListener("click", () => $("#installDialog").close());
+  $("#detailBackBtn").addEventListener("click", goBackFromDetail);
 
   $("#dailyHexBtn").addEventListener("click", () => openHex(dailyHexNumber()));
   $("#searchInput").addEventListener("input", renderLibrary);
@@ -799,6 +833,7 @@ if ("serviceWorker" in navigator) {
 
 // Expose functions used by inline buttons.
 window.openHex = openHex;
+window.goBackFromDetail = goBackFromDetail;
 window.toggleFavorite = toggleFavorite;
 window.copyHex = copyHex;
 window.saveNote = saveNote;

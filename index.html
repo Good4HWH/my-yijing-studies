@@ -12,7 +12,7 @@
 <body>
   <header class="topbar">
     <div>
-      <p class="eyebrow">个人学习工具 · v1.2 Final 经典核引全量版</p>
+      <p class="eyebrow">个人易经学习工具</p>
       <h1>我的易经｜学习与数字卦</h1>
     </div>
     <button id="installBtn" class="ghost light" type="button">安装说明</button>
@@ -24,18 +24,18 @@
       <button data-tab="library" type="button">64卦</button>
       <button data-tab="divine" type="button">数字卦</button>
       <button data-tab="records" type="button">记录</button>
-      <button data-tab="sources" type="button">资料</button>
+      <button data-tab="sources" type="button">信息</button>
     </nav>
 
     <section id="home" class="view active">
-      <div class="hero card">
+      <div class="hero card home-hero">
         <img src="icons/icon-192.png" alt="先天八卦图 App 图标" class="home-icon" />
         <h2>让《易经》学习更清晰、更可复盘</h2>
-        <p>v1.2 Final 经典核引全量版：64卦高质量经典核引学习层已全部完成，并保留全64卦 sourceTrace 来源结构。</p>
-        <div class="actions center">
-          <button class="primary" data-go="divine" type="button">开始数字卦</button>
-          <button class="secondary" data-go="library" type="button">查看64卦</button>
-          <button id="dailyHexBtn" class="secondary" type="button">今日一卦</button>
+        <p class="home-subtitle">学习六十四卦，记录数字卦，并把卦义落实到现实中的观察与行动。</p>
+        <div class="home-actions">
+          <button class="primary home-action-btn" data-go="divine" type="button">开始数字卦</button>
+          <button class="secondary home-action-btn" data-go="library" type="button">查看64卦</button>
+          <button id="dailyHexBtn" class="secondary home-action-btn" type="button">今日一卦</button>
         </div>
       </div>
 
@@ -43,16 +43,6 @@
         <div class="stat-card"><strong>64</strong><span>卦资料</span></div>
         <div class="stat-card"><strong id="recordCount">0</strong><span>卜卦记录</span></div>
         <div class="stat-card"><strong id="favoriteCount">0</strong><span>收藏卦</span></div>
-      </div>
-
-      <div class="notice card">
-        <h3>v1.2 Final 增强重点</h3>
-        <ul class="clean-list">
-          <li>64卦已全部完成“经典核引学习层”，包含原典重点、义理摘要、象数结构、现实合参与复盘问题。</li>
-          <li>全64卦已建立 sourceTrace 来源结构，并已完成所有64卦核引摘要。</li>
-          <li>数字卦结果页会优先显示已完成卦的 v1.2 核引层，并保留 v1.1B 合参提示。</li>
-          <li>本版坚持质量优先：第1—16为 complete_v1_2A，第17—32为 complete_v1_2B，第33—48为 complete_v1_2C，第49—64为 complete_v1_2D。</li>
-        </ul>
       </div>
     </section>
 
@@ -62,14 +52,13 @@
         <select id="filterSelect">
           <option value="all">全部64卦</option>
           <option value="favorite">我的收藏</option>
-          <option value="ready">已完整录入</option>
         </select>
       </div>
       <div id="hexList" class="grid"></div>
     </section>
 
     <section id="detail" class="view">
-      <button class="ghost" data-go="library" type="button">← 返回64卦</button>
+      <button id="detailBackBtn" class="ghost detail-back-btn" type="button">← 返回64卦</button>
       <div id="detailBox"></div>
     </section>
 
@@ -118,22 +107,44 @@
 
     <section id="sources" class="view">
       <div class="card prose">
-        <h2>资料库与校对原则</h2>
-        <p>本 App 将资料分为三层：原典层、白话学习层、个人笔记层。原典层优先收录《周易》卦辞、爻辞、彖传、象传等；现代白话解释采用原创整理，不直接复制当代出版物。</p>
+        <h2>信息与资料</h2>
+        <p>这里集中说明资料原则、版本更新、数字卦算法、备份方式和未来功能方向。首页保持简洁，学习与起卦功能不受这些说明干扰。</p>
 
-        <h3>v1.2 Final 资料状态</h3>
+        <h3>当前版本：v1.3A</h3>
+        <ul>
+          <li>首页精简，只保留 App 图标、标题、三个主要入口和个人统计。</li>
+          <li>64卦列表放大卦象和卦意摘要，统一卦象对齐，并移除“完整”状态标签。</li>
+          <li>从数字卦结果进入本卦或变卦后，可以返回原来的数字卦结果。</li>
+          <li>64卦原典、白话译文、现实应用与经典核引学习资料完整保留。</li>
+        </ul>
+
+        <h3>资料库与校对原则</h3>
+        <p>本 App 将内容区分为原典、白话学习、经典注解摘要、现实应用和个人笔记。原典优先收录《周易》卦辞、爻辞、彖传、象传；现代解释采用原创整理，不直接复制当代出版物或网站内容。</p>
         <ul>
           <li>完整：64卦卦序、卦名、卦图、上下卦结构。</li>
           <li>完整：64卦卦辞、彖传、象传、六爻爻辞与逐项白话译文。</li>
-          <li>新增：第49—64卦经典核引学习层；至此64卦已全部完成。</li>
-          <li>下一阶段建议：进入 v1.3，做逐句原文摘引、异文校对与案例学习层。</li>
+          <li>完整：64卦现实应用、风险提醒、行动建议和学习复盘问题。</li>
+          <li>完整：64卦经典核引摘要与来源追踪结构。</li>
         </ul>
 
         <h3>数字卦算法</h3>
         <p>第一组数字 ÷ 8 定上卦；第二组数字 ÷ 8 定下卦；第三组数字 ÷ 6 定动爻。余数为0时，八卦按第8数、动爻按第6爻。</p>
 
+        <h3>备份与离线使用</h3>
+        <p>学习笔记、收藏和卜卦记录保存在本机浏览器。建议定期使用“导出备份”。App 核心资料加载并缓存后可以离线使用；打开外部来源或未来使用 AI 分析时仍需网络。</p>
+
+        <h3>未来的 AI 情境分析</h3>
+        <p>未来可让 AI 结合你的具体问题、背景说明、本卦、动爻、变卦和本 App 的资料库，生成针对该情境的结构化分析。AI 应作为学习和反思助手，而不是替代现实判断的确定性预测工具。</p>
+        <ul>
+          <li>当前局势与问题重点</li>
+          <li>动爻对应的关键变化</li>
+          <li>本卦与变卦对具体问题的启发</li>
+          <li>风险、行动选择和需要继续观察的信号</li>
+          <li>分析依据与不确定性说明</li>
+        </ul>
+
         <h3>学习提醒</h3>
-        <p>此 App 用于学习、反思与记录，不应替代你的理性判断、专业建议或重大现实决策。卜卦结果建议结合“时机、位置、进退、风险、应对”五个角度复盘。</p>
+        <p>此 App 用于学习、反思与记录，不应替代法律、医疗、财务或其他专业建议，也不应替代重大现实决策。</p>
       </div>
     </section>
   </main>
