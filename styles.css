@@ -21,13 +21,12 @@
 
 
 /* v1.0 refinements */
-.home-icon {
-  width: 118px;
-  height: 118px;
-  border-radius: 28px;
-  box-shadow: var(--shadow);
-  margin: 6px auto 14px;
-  display: block;
+ .home-icon{
+  width: 144px;
+  height: 144px;
+  display:block;
+  margin:0 auto 14px;
+  image-rendering:auto;
 }
 
 .center {
@@ -250,4 +249,10 @@
     min-height: 72px;
     font-size: 20px;
   }
+}
+
+
+/* v1.3A.1 Home page icon refinement */
+.home-icon{
+  filter: none;
 }

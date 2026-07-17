@@ -671,7 +671,7 @@ function calculateDivination() {
     upper, lower, line,
     hex: h.number,
     changed: ch.number,
-    appVersion: "1.3A"
+    appVersion: "1.3A.1"
   };
 
   renderResult(lastResult);
@@ -762,7 +762,7 @@ function delRecord(id) {
 function exportBackup() {
   const payload = {
     app: "我的易经｜学习与数字卦",
-    version: "1.3A",
+    version: "1.3A.1",
     exportedAt: new Date().toISOString(),
     records: getRecords(),
     favorites: getFavorites(),
